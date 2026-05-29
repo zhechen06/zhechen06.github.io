@@ -1,0 +1,4 @@
+type = "publication"
+title = "Publications"
+description = "Publication statistics and Google Scholar metrics."
+source = "publications.bib"

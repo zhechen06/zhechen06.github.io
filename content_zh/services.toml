@@ -1,0 +1,92 @@
+type = "card"
+layout = "list"
+title = "学术服务"
+hide_title = true
+
+[[items]]
+section = "期刊服务"
+title = "青年编委"
+content = "*Carbon Neutrality* 青年编委（IF: 12.5）。"
+image = "/services/carbon-neutrality-young-editorial-board.jpg"
+
+[[items]]
+section = "期刊服务"
+title = "特刊客座编辑"
+content = "*Buildings* 特刊 *Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control* 客座编辑。"
+image = "/services/buildings-editor-certificate.jpg"
+
+[[items]]
+section = "期刊服务"
+title = "期刊审稿人"
+content = "受邀担任多个期刊审稿人，包括 *Applied Energy*, *Automation in Construction*, *Energy Conversion and Management*, *Journal of Cleaner Production*, *Advanced Engineering Informatics*, *Engineering Applications of Artificial Intelligence*, *Computers in Industry*, *Energy*, *Building and Environment*, *Applied Thermal Engineering*, *Energy and Buildings*, *Building Simulation*, *iScience*。"
+
+[[items]]
+section = "会议服务"
+title = "分会场主席，ICDIES 2026"
+subtitle = "International Conference on Digital Intelligence for Energy Systems"
+date = "2026"
+content = "担任第二届数字智能能源系统国际会议分会场主席。Oct. 2026, Wollongong, Australia."
+
+[[items]]
+section = "会议服务"
+title = "分会场主席，AIXEnergy 2026"
+subtitle = "Applied Energy Symposium: AIXEnergy"
+date = "2026"
+content = "担任 Applied Energy Symposium: AIXEnergy 分会场主席。May 2026, Ningbo, China."
+image = "/services/aixenergy-2026.jpg"
+
+[[items]]
+section = "协会会员"
+title = "会员"
+subtitle = "International Building Performance Simulation Association (IBPSA)"
+date = "进行中"
+content = "国际建筑性能模拟协会会员。"
+
+[[items]]
+section = "协会会员"
+title = "会员"
+subtitle = "International Society of Energy and Built Environment (ISEBE)"
+date = "进行中"
+content = "国际能源与建筑环境学会会员。"
+
+[[items]]
+section = "科研项目"
+title = "面向碳中和的建筑暖通空调系统智能化与可扩展数据驱动管理技术研发"
+subtitle = "香港理工大学杰出博士后研究员计划"
+date = "2025-2027"
+content = "经费：HK$841,040。项目编号：P0053872。承担内容：获资助博士后研究。"
+
+[[items]]
+section = "科研项目"
+title = "智能数据推动楼宇管理架构应用于环境保护及可持续发展"
+subtitle = "香港特别行政区创新及科技基金"
+date = "2022-2024"
+content = "项目编号：ITP/002/22LP。承担内容：大型建筑数据驱动管理技术示范研究。"
+
+[[items]]
+section = "科研项目"
+title = "高密度城市中建筑综合能源系统的智能管理技术研发"
+subtitle = "国家重点研发计划"
+date = "2021-2024"
+content = "项目编号：2021YFE0107400。承担内容：建筑能源系统数据驱动建模与优化研究。"
+
+[[items]]
+section = "科研项目"
+title = "分布式综合能源系统联合仿真技术"
+subtitle = "国家重点研发计划"
+date = "2017-2021"
+content = "项目编号：2017YFB0903404。承担内容：分布式综合能源系统建模研究。"
+
+[[items]]
+section = "教学指导"
+title = "BSE3716 & BSE4726 Capstone Research Project"
+subtitle = "学生指导"
+date = "2025-2026"
+content = "指导6名本科生完成毕业设计研究。"
+
+[[items]]
+section = "教学指导"
+title = "BSE3713 & BSE4725 Capstone Research Project"
+subtitle = "学生指导"
+date = "2023-2024"
+content = "指导2名本科生完成毕业设计研究。"

@@ -1,0 +1,106 @@
+type = "card"
+title = "获奖与荣誉"
+description = "主要奖项、荣誉与竞赛成果。"
+
+[[items]]
+id = "flextrack-challenge"
+title = "冠军，FlexTrack Challenge: Detecting Energy Flexibility in Buildings"
+subtitle = "AIcrowd、新南威尔士州政府与卧龙岗大学"
+date = "2025-12"
+content = "建筑能源灵活性预测，排名 1/610，获奖金 AU$10,000。 [来源](https://www.aicrowd.com/challenges/flextrack-challenge-2025/winners)"
+tags = ["竞赛"]
+image = "/awards/flextrack-challenge.jpg"
+
+[[items]]
+id = "fce-outstanding-phd-theses"
+title = "建设及环境学院杰出博士论文奖"
+subtitle = "香港理工大学"
+date = "2025-08"
+content = "该奖项授予 2024/2025 年度学院 117 位 PhD 毕业生中的 3 位（top 2.5%），本系唯一获奖者。 [来源](https://www.polyu.edu.hk/beee/news-and-events/news/2025/20250827--beees-phd-student-selected-for-the-fce-awards-for-outstanding-phd-theses/)"
+tags = ["学术荣誉"]
+image = "/awards/fce-outstanding-thesis.jpg"
+
+[[items]]
+title = "杰出博士后研究员资助"
+subtitle = "香港理工大学"
+date = "2024-11"
+content = "香港理工大学杰出博士后研究员资助获得者，并入围 RGC Junior Research Fellow Scheme（本系唯一提名人）。"
+tags = ["学术荣誉"]
+
+[[items]]
+id = "adapen-highly-cited-paper-award"
+title = "高被引论文奖"
+subtitle = "Advances in Applied Energy"
+date = "2024-03"
+content = "表彰该期刊2023年发表论文中被引次数最高论文。 [来源](https://research.polyu.edu.hk/en/prizes/highly-cited-paper-award-2024-by-advances-in-applied-energy/)"
+tags = ["论文认可"]
+image = "/awards/adapen-highly-cited.jpg"
+
+[[items]]
+id = "gba-data-ai"
+title = "冠军，第一届粤港澳大湾区数据应用创新大赛"
+subtitle = "深圳市发展和改革委员会"
+date = "2023-12"
+content = "分布式光伏发电量预测；奖金 CN¥100,000，受邀向深圳市发展和改革委员会领导展示并获得高度评价。 [来源 1](https://www.polyu.edu.hk/rio/news/2023/20231228---the-first-greater-bay-area-data-application-innovation-competition/) [来源 2](https://www.jdonline.com.hk/content_84766.html)"
+tags = ["竞赛"]
+image = "/awards/gba-data-ai.jpg"
+
+[[items]]
+title = "杰出控制奖，第 21 届 MDV 中央空调设计应用大赛"
+subtitle = "美的楼宇科技"
+date = "2023-11"
+content = "AI-enabled chiller plant control；该比赛被誉为 HVAC 领域的“奥斯卡”。 [来源](https://biz.co188.com/content_info_62864555_1.html)"
+tags = ["竞赛"]
+image = "/awards/mdv-control-award.jpg"
+
+[[items]]
+title = "冠军，施耐德电气AI大施杯算法竞赛"
+subtitle = "施耐德电气与百度飞桨"
+date = "2023-05"
+content = "主办方为施耐德电气与百度飞桨，面向建筑用电负荷预测，排名 1/331，奖金 CN¥20,000，受邀前往乌镇互联网国际会展中心领奖。 [来源](https://www.china5e.com/news/news-1153321-1.html)"
+tags = ["竞赛"]
+image = "/awards/schneider-ai-master-cup.jpg"
+
+[[items]]
+title = "ESI热点论文和高被引论文"
+subtitle = "Journal Citation Reports"
+date = "2023-03"
+tags = ["论文认可"]
+
+[[items]]
+id = "unilab-smart-energy"
+title = "冠军，UNiLAB智慧能源系统算法竞赛"
+subtitle = "UNiLAB 与阿里巴巴天池"
+date = "2023-02"
+content = "分布式光伏发电量预测，排名 1/513，奖金 CN¥20,000。 [来源](https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn)"
+tags = ["竞赛"]
+image = "/awards/unilab-smart-energy.jpg"
+
+[[items]]
+title = "Eni Award 2023 提名"
+subtitle = "Eni Award Committee"
+date = "2022-10"
+tags = ["论文认可"]
+
+[[items]]
+title = "冠军，i-Space: VRAR Contest 2021/22"
+subtitle = "香港理工大学"
+date = "2022-07"
+content = "项目名称：“AR-enabled Smart Building Energy Management Platform”。 [来源](https://www.lib.polyu.edu.hk/publications/2022/09/vr_ar_contest/)"
+tags = ["竞赛"]
+image = "/awards/vrar-contest.jpg"
+
+[[items]]
+title = "银奖，国际建筑机电人工智能挑战赛"
+subtitle = "香港机电工程署"
+date = "2022-06"
+content = "建筑冷负荷预测。 [来源](https://www.globalaichallenge.com/)"
+tags = ["竞赛"]
+image = "/awards/global-ai-challenge.jpg"
+
+[[items]]
+title = "校长卓越博士生奖学金计划"
+subtitle = "香港理工大学"
+date = "2021-09"
+content = "首届香港理工大学校长卓越博士生奖学金获得者。"
+tags = ["学术荣誉"]

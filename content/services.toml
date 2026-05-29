@@ -1,0 +1,92 @@
+type = "card"
+layout = "list"
+title = "Service"
+hide_title = true
+
+[[items]]
+section = "Journal Service"
+title = "Young Editorial Board Member"
+content = "Young Editorial Board member, *Carbon Neutrality* (IF: 12.5)."
+image = "/services/carbon-neutrality-young-editorial-board.jpg"
+
+[[items]]
+section = "Journal Service"
+title = "Guest Editor, Special Issue"
+content = "Guest editor for the *Buildings* special issue *Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control*."
+image = "/services/buildings-editor-certificate.jpg"
+
+[[items]]
+section = "Journal Service"
+title = "Peer Reviewer"
+content = "*Applied Energy*, *Automation in Construction*, *Energy Conversion and Management*, *Journal of Cleaner Production*, *Advanced Engineering Informatics*, *Engineering Applications of Artificial Intelligence*, *Computers in Industry*, *Energy*, *Building and Environment*, *Applied Thermal Engineering*, *Energy and Buildings*, *Building Simulation*, *iScience*."
+
+[[items]]
+section = "Conference Service"
+title = "Session Chair, ICDIES 2026"
+subtitle = "International Conference on Digital Intelligence for Energy Systems"
+date = "2026"
+content = "Session chair for the 2nd International Conference on Digital Intelligence for Energy Systems, October 2026, Wollongong, Australia."
+
+[[items]]
+section = "Conference Service"
+title = "Session Chair, AIXEnergy 2026"
+subtitle = "Applied Energy Symposium: AIXEnergy"
+date = "2026"
+content = "Session chair for Applied Energy Symposium: AIXEnergy, May 2026, Ningbo, China."
+image = "/services/aixenergy-2026.jpg"
+
+[[items]]
+section = "Professional Memberships"
+title = "Member"
+subtitle = "International Building Performance Simulation Association (IBPSA)"
+date = "Ongoing"
+content = "Member of the International Building Performance Simulation Association."
+
+[[items]]
+section = "Professional Memberships"
+title = "Member"
+subtitle = "International Society of Energy and Built Environment (ISEBE)"
+date = "Ongoing"
+content = "Member of the International Society of Energy and Built Environment."
+
+[[items]]
+section = "Research Projects"
+title = "Smart and Scalable Data-driven Management Technologies for Building HVAC Systems towards Carbon Neutrality"
+subtitle = "PolyU Distinguished Postdoctoral Fellowship Scheme"
+date = "2025-2027"
+content = "Funding: HK$841,040. Project ID: P0053872. Role: Fellowship Awardee."
+
+[[items]]
+section = "Research Projects"
+title = "Smart Data-Driven Building Management Framework for Environmental and Sustainability Applications"
+subtitle = "Innovation and Technology Fund of Hong Kong"
+date = "2022-2024"
+content = "Project ID: ITP/002/22LP. Role: lead researcher for demonstration of data-driven building management technologies in large buildings."
+
+[[items]]
+section = "Research Projects"
+title = "Smart Energy Management Technologies for Complex Building Energy Systems in High-Density Cities"
+subtitle = "National Key Research and Development Program of China"
+date = "2021-2024"
+content = "Project ID: 2021YFE0107400. Role: lead researcher for data-driven modelling and optimization for building energy systems."
+
+[[items]]
+section = "Research Projects"
+title = "Distributed Integrated Energy System Joint Simulation Technologies"
+subtitle = "National Key Research and Development Program of China"
+date = "2017-2021"
+content = "Project ID: 2017YFB0903404. Role: lead researcher for distributed integrated energy system modeling."
+
+[[items]]
+section = "Teaching"
+title = "BSE3716 & BSE4726 Capstone Research Project"
+subtitle = "Undergraduate project advising"
+date = "2025-2026"
+content = "Advised six undergraduate students on capstone research projects."
+
+[[items]]
+section = "Teaching"
+title = "BSE3713 & BSE4725 Capstone Research Project"
+subtitle = "Undergraduate project advising"
+date = "2023-2024"
+content = "Advised two undergraduate students on capstone research projects."

@@ -1,0 +1,9 @@
+[project]
+name = "prism-scholar-stats"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx==0.24.1",
+    "scholarly>=1.7.11",
+]
+

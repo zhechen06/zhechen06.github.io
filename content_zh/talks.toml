@@ -1,0 +1,71 @@
+type = "card"
+layout = "list"
+title = "邀请报告"
+
+[[items]]
+title = "Demand Response Detection and Capacity Prediction using Ensemble Learning"
+subtitle = "IEEE International Conference on Energy Technologies for Future Grids"
+date = "2025"
+content = "作为 FlexTrack Challenge 冠军受邀报告。Dec. 2025, Wollongong, Australia."
+
+[[items]]
+title = "Embarking on your research journey: My experience at PolyU BEEE"
+subtitle = "香港理工大学建筑环境及能源工程学系研究生迎新"
+date = "2025"
+content = "作为博士毕业生代表受邀报告。Sept. 2025, Hong Kong, China."
+
+[[items]]
+section = "会议报告"
+title = "A novel demand response detection and capacity prediction framework"
+subtitle = "Applied Energy Symposium: AIXEnergy"
+date = "2026"
+content = "May 2026, Ningbo, China."
+
+[[items]]
+section = "会议报告"
+title = "Reliably estimating energy savings using data-driven models as the baseline"
+subtitle = "International Conference on Building and Simulation (BAS)"
+date = "2025"
+content = "July 2025, Borlänge, Sweden."
+
+[[items]]
+section = "会议报告"
+title = "Robust comparison of optimization algorithms for optimal chiller loading"
+subtitle = "International Conference on Sustainable Development in Building and Environment (SuDBE)"
+date = "2023"
+content = "Aug. 2023, Espoo, Finland."
+
+[[items]]
+section = "会议报告"
+title = "Similarity learning-based FDD in building HVAC systems"
+subtitle = "The 3rd International Conference for Global Chinese Academia on Energy and Built Environment International (CEBE)"
+date = "2023"
+content = "July 2023, Shanghai, China."
+
+[[items]]
+section = "会议报告"
+title = "Quantifying HVAC electrical flexibility from building thermal mass: a case study of the DOE reference building"
+subtitle = "The 16th ROOMVENT Conference (ROOMVENT)"
+date = "2022"
+content = "Sept. 2022, Xi'an, China."
+
+[[items]]
+section = "会议报告"
+title = "Interpretable machine learning for AHU fault detection and diagnosis: Rule extraction from black-box models"
+subtitle = "The 14th International Conference on Applied Energy (ICAE)"
+date = "2022"
+content = "Aug. 2022, Bochum, Germany."
+
+[[items]]
+section = "会议报告"
+title = "A multi-objective optimization-based load scheduling approach for demand response in smart grid"
+subtitle = "The 2nd International Conference for Global Chinese Academia on Energy and Built Environment International (CEBE)"
+date = "2021"
+content = "July 2021, Chengdu, China."
+
+[[items]]
+section = "会议报告"
+title = "A peer-to-peer electricity system and its simulation"
+subtitle = "The 4th Asia Conference of International Building Performance Simulation Association (ASIM)"
+date = "2018"
+content = "Dec. 2018, Hong Kong, China."

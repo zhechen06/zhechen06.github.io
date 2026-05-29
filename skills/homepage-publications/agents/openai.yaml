@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage Publications"
+  short_description: "Maintain publications, Zotero data, and CV sync"
+  default_prompt: "Use $homepage-publications to add or update homepage publication metadata, verify Zotero/DOI evidence, and sync CV-visible changes."

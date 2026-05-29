@@ -1,0 +1,41 @@
+type = "about"
+title = "关于"
+
+[profile]
+research_interests = [
+  "AI驱动控制",
+  "故障检测与诊断",
+  "电网交互型建筑"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "关于"
+
+[[sections]]
+id = "news"
+type = "list"
+title = "动态"
+source = "news.toml"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "精选论文"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "selected_awards"
+type = "awards"
+title = "精选奖项"
+source = "awards.toml"
+keys = [
+  "fce-outstanding-phd-theses",
+  "adapen-highly-cited-paper-award",
+  "flextrack-challenge",
+  "gba-data-ai",
+  "unilab-smart-energy",
+]

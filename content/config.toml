@@ -1,0 +1,79 @@
+[site]
+title = "Zhe Chen"
+description = "Personal academic homepage of Zhe (Barry) Chen, Distinguished Postdoctoral Fellow at The Hong Kong Polytechnic University."
+favicon = "/favicon.svg"
+last_updated = "May 30, 2026"
+
+[author]
+name = "Zhe (Barry) Chen"
+title = "Distinguished Postdoctoral Fellow"
+institution = "Department of Building Environment and Energy Engineering\nThe Hong Kong Polytechnic University"
+avatar = "/bio.jpg"
+
+[social]
+email = "zhechen@polyu.edu.hk"
+location = "Hong Kong"
+location_url = "https://maps.app.goo.gl/iZb4Sub8CxrE9XwX6"
+location_details = [
+  "Room ZN1001, Block Z,",
+  "181 Chatham Road South,",
+  "The Hong Kong Polytechnic University,",
+  "Hung Hom, Kowloon, Hong Kong"
+]
+google_scholar = "https://scholar.google.com/citations?user=2qgIJwwAAAAJ&hl=zh-CN"
+orcid = "https://orcid.org/my-orcid?orcid=0000-0003-4715-5651"
+github = ""
+linkedin = "https://www.linkedin.com/in/zhe-chen-barry/"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["en", "zh"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+en = "English"
+zh = "中文"
+
+[[navigation]]
+title = "Home"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Talks"
+type = "page"
+target = "talks"
+href = "/talks"
+
+[[navigation]]
+title = "Service"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

@@ -1,0 +1,318 @@
+% =============================================================================
+%  陈喆 — 中文简历
+%  Compile with XeLaTeX or LuaLaTeX.
+% =============================================================================
+\documentclass[11pt,a4paper]{article}
+
+% --------- Page geometry ---------
+\usepackage[a4paper, top=1in, bottom=1in, left=0.86in, right=0.86in]{geometry}
+
+% --------- Encoding & fonts ---------
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\IfFontExistsTF{Palatino Linotype}
+  {\setmainfont{Palatino Linotype}}
+  {\IfFontExistsTF{Palatino}{\setmainfont{Palatino}}{}}
+\IfFontExistsTF{KaiTi}
+  {\setCJKmainfont[AutoFakeBold=2.5]{KaiTi}}
+  {\IfFontExistsTF{Kaiti SC}{\setCJKmainfont[AutoFakeBold=2.5]{Kaiti SC}}{\setCJKmainfont[AutoFakeBold=2.5]{STKaiti}}}
+
+% --------- Colour, links, formatting ---------
+\usepackage{xcolor}
+\definecolor{darkblue}{RGB}{31,73,125}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{bookmark}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=darkblue,
+  linkcolor=darkblue,
+  bookmarksopen=true,
+  bookmarksopenlevel=2,
+  bookmarksnumbered=false,
+  pdfpagemode=UseOutlines
+}
+
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{academicons}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+
+% --------- Section heading style ---------
+\newcommand{\sectionheading}[1]{%
+  \begingroup
+  \renewcommand{\arraystretch}{1}%
+  \setlength{\tabcolsep}{0pt}%
+  \setlength{\arrayrulewidth}{1pt}%
+  \begin{tabularx}{\linewidth}{@{}X@{}}
+  {\fontsize{12}{14}\selectfont\bfseries\color{darkblue}#1}\\[2pt]\hline
+  \end{tabularx}%
+  \endgroup
+}
+\titleformat{\section}
+  {}
+  {}{0pt}{\sectionheading}
+\titlespacing*{\section}{0pt}{14pt}{2pt}
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{darkblue}}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{6pt}{4pt}
+
+% --------- PDF outline helpers ---------
+\newcounter{cvbookmark}
+\newcommand{\cvoutline}[2]{%
+  \stepcounter{cvbookmark}%
+  \pdfbookmark[#1]{#2}{cvbookmark.\thecvbookmark}%
+}
+\newcommand{\cvsection}[2]{%
+  \cvoutline{1}{#1}%
+  \section*{#2}%
+}
+\newcommand{\cvsubsection}[2]{%
+  \cvoutline{2}{#1}%
+  \subsection*{#2}%
+}
+
+% --------- Helpers ---------
+\newcommand{\me}[1]{\underline{\textbf{#1}}}
+\newcommand{\journal}[1]{\textcolor{darkblue}{\textbf{\textit{#1}}}}
+\newfontfamily\emailiconfont{Arial Unicode MS}
+\newfontfamily\homepageiconfont{Apple Symbols}
+\newcommand{\contacticonbox}[1]{\makebox[1.15em][c]{#1}\hspace{0.35em}}
+\newcommand{\emailicon}{\contacticonbox{\textcolor{darkblue}{\raisebox{0.02em}{\scalebox{1.32}{{\emailiconfont\char"2709}}}}}}
+\newcommand{\homepageicon}{\contacticonbox{\textcolor{darkblue}{\raisebox{-0.03em}{\scalebox{0.9}{{\homepageiconfont\char"1F310}}}}}}
+\newcommand{\homepageurl}{zhechen06.github.io}
+\newcommand{\scholaricon}{\textcolor{darkblue}{\aiGoogleScholar}}
+\newcommand{\scholarstats}{\href{https://scholar.google.com/citations?user=2qgIJwwAAAAJ\&hl=zh-CN}{\scholaricon\hspace{0.25em}\textcolor{darkblue}{谷歌学术}}被引：2,089；h-index：18；热点论文：1；高被引论文：2}
+
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.02}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=3em
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\textcolor{white}{最近更新：2026年5月29日}}
+\fancyfoot[R]{\footnotesize 第 \thepage\ 页，共 \pageref{LastPage} 页}
+
+\setlist{nosep, topsep=1pt, partopsep=0pt, itemsep=0pt, parsep=0pt}
+\setlist[enumerate,1]{labelindent=0pt, leftmargin=*, widest=30, labelsep=0.35em, align=right}
+
+\newcolumntype{D}{>{\RaggedRight\arraybackslash}p{2.75cm}}
+\newcolumntype{M}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}p{3.5cm}}
+
+\begin{document}
+\linespread{1.18}\selectfont
+
+% =============================================================================
+%  HEADER
+% =============================================================================
+{\fontsize{16}{19}\selectfont\color{darkblue}\textbf{陈喆}}\par\vspace{3pt}
+{\fontsize{12}{14}\selectfont\textbf{理大杰出博士后}}\par
+香港理工大学建筑环境及能源工程学系\par
+% 香港九龙红磡漆咸道南181号，香港理工大学Z座ZN1001室\par
+\emailicon\href{mailto:zhechen@polyu.edu.hk}{zhechen@polyu.edu.hk}\par
+\homepageicon\href{https://zhechen06.github.io}{\homepageurl}
+
+% =============================================================================
+%  PROFILE
+% =============================================================================
+\cvsection{个人简介}{个人简介}
+\begin{tabularx}{\textwidth}{@{}X@{}}
+入选香港理工大学校长卓越博士生奖学金计划、杰出博士后研究员计划，并荣获香港理工大学建设及环境学院杰出博士论文奖。主要从事人工智能驱动建筑运维、建筑能源系统优化、故障诊断、需求响应、冷站优化及节能量不确定性评估等方面研究。\\[3pt]
+累计发表论文30余篇，谷歌学术被引2,089次，h-index为18；其中1篇入选ESI热点论文，2篇入选高被引论文。以第一/通讯作者在\textit{Renewable and Sustainable Energy Reviews}、\textit{Advances in Applied Energy}、\textit{Sustainable Cities and Society}、\textit{Automation in Construction}、\textit{Applied Energy}、\textit{Energy}等国际期刊发表论文。现担任\textit{Carbon Neutrality}青年编委、\textit{Buildings}客座编辑及多个期刊审稿人。\\[3pt]
+获国际建筑能源灵活性预测挑战赛冠军（排名1/610，奖金AU\$10,000）、第一届粤港澳大湾区数据应用创新大赛冠军（奖金CN¥100,000）、UNiLAB智慧能源系统大数据分析赛冠军（排名1/513）、施耐德电气AI大施杯智能楼宇能耗预测赛冠军（排名1/331）等。
+\end{tabularx}
+
+% =============================================================================
+%  WORK EXPERIENCE
+% =============================================================================
+\cvsection{工作经历}{工作经历}
+\begin{tabularx}{\textwidth}{@{}D M R@{}}
+2025.01--至今 &
+  \textbf{香港理工大学}\newline
+  建筑环境及能源工程学系\newline
+  合作导师：肖赋教授 &
+  \textbf{理大杰出博士后} \\
+2020.07--2021.07 &
+  \textbf{上海理工大学}\newline
+  能源与动力工程学院\newline
+  合作导师：陈永保教授 &
+  \textbf{研究助理} \\
+\end{tabularx}
+
+% =============================================================================
+%  EDUCATION
+% =============================================================================
+\cvsection{教育经历}{教育经历}
+\begin{tabularx}{\textwidth}{@{}D M R@{}}
+2021.09--2024.12 &
+  \textbf{香港理工大学}\newline
+  建筑环境与能源工程\newline
+  指导老师：肖赋教授 &
+  \textbf{哲学博士} \\
+2017.09--2020.04 &
+  \textbf{同济大学}\newline
+  供热、供燃气、通风及空调工程\newline
+  指导老师：许鹏教授 &
+  \textbf{工学硕士} \\
+2013.09--2017.06 &
+  \textbf{南京航空航天大学}\newline
+  建筑环境与能源应用工程 &
+  \textbf{工学学士} \\
+\end{tabularx}
+
+% =============================================================================
+%  AWARDS
+% =============================================================================
+\cvsection{获奖经历}{获奖经历}
+\begin{longtable}{@{}p{0.75cm}@{\hspace{0.20cm}}>{\justifying\arraybackslash}p{\dimexpr\textwidth-0.95cm\relax}@{}}
+2025 & \textbf{冠军（排名1/610，AU\$10,000）}，FlexTrack Challenge---Detecting Energy Flexibility in Buildings，AIcrowd、新南威尔士州政府与卧龙岗大学 \\
+2025 & \textbf{建设及环境学院杰出博士论文奖}，香港理工大学（前2.5\%，本系唯一获奖者） \\
+2024 & \textbf{杰出博士后研究员资助}，香港理工大学；入围 RGC Junior Research Fellow Scheme（本系唯一提名人） \\
+2024 & \textbf{高被引论文奖}，\textit{Advances in Applied Energy}期刊（IF: 13.8）\newline 表彰该期刊2023年发表论文中被引次数最高论文 \\
+2023 & \textbf{冠军（CN¥100,000）}，第一届粤港澳大湾区数据应用创新大赛，深圳市发展和改革委员会 \\
+2023 & \textbf{杰出控制奖}，第21届MDV中央空调设计应用大赛，美的楼宇科技 \\
+2023 & \textbf{冠军（排名1/331，CN¥20,000）}，施耐德电气AI大施杯算法竞赛，施耐德电气与百度飞桨 \\
+2023 & \textbf{ESI热点论文和高被引论文}，通讯作者论文``\textit{Physical energy and data-driven models in building energy prediction: A review}'' \\
+2023 & \textbf{冠军（排名1/513，CN¥20,000）}，UNiLAB智慧能源系统算法竞赛，UNiLAB与阿里巴巴天池 \\
+2022 & \textbf{论文获 Eni Award 2023 提名}，第一作者需求响应调度论文 \\
+2022 & \textbf{冠军}，i-Space: VRAR Contest 2021/22，项目``AR-enabled Smart Building Energy Management Platform''，香港理工大学 \\
+2022 & \textbf{银奖}，国际建筑机电人工智能挑战赛，香港机电工程署 \\
+2021 & \textbf{校长卓越博士生奖学金计划}，香港理工大学 \\
+\end{longtable}
+
+% =============================================================================
+%  PUBLICATIONS
+% =============================================================================
+\cvsection{学术文章}{\texorpdfstring{学术文章\hfill\normalfont\normalsize\color{black}\scholarstats}{学术文章}}
+
+\cvsubsection{期刊论文}{\color{darkblue}期刊论文}
+\begin{enumerate}
+\item \me{Chen Z}, Xiao F*, Guo F. Similarity learning-based fault detection and diagnosis in building HVAC systems with limited labeled data. \journal{Renewable and Sustainable Energy Reviews} 2023;185:113612. (IF: 16.3)
+\item \me{Chen Z}, Xiao F*, Guo F, Yan J. Interpretable machine learning for building energy management: A state-of-the-art review. \journal{Advances in Applied Energy} 2023;9:100123. (IF: 13.8, 高被引论文奖)
+\item \me{Chen Z}, Chen Y*, He R, Liu J, Gao M, Zhang L. Multi-objective residential load scheduling approach for demand response in smart grid. \journal{Sustainable Cities and Society} 2022;76:103530. (IF: 12.0, 国际埃尼奖提名论文)
+\item \me{Chen Z}, Xiao F*, Chen Y. Multi-objective online optimization of building energy systems for improved control smoothness and efficiency. \journal{Automation in Construction} 2026;181:106604. (IF: 11.5)
+\item \me{Chen Z}, Zhang J, Xiao F*, Xu K, Chen Y. Development of a probabilistic cooling load prediction-based robust chiller sequencing strategy and its real-world implementation. \journal{Applied Energy} 2025;382:125213. (IF: 11.0)
+\item \me{Chen Z}, Xiao F*, Xiao Z, Chen Y. Bridging the gap between data-driven baselines and energy saving uncertainty for building retrofit. \journal{Energy} 2025;340:139292. (IF: 9.4)
+\item \me{Chen Z}, Zhang J, Xiao F*, Xu K, Chen Y. Physically consistent data-driven optimal sequencing strategy for variable speed pumps in large building chiller plants. \journal{Building and Environment} 2025;281:113177. (IF: 7.6)
+\item \me{Chen Z}, Chen Y*, Xiao T, Wang H, Hou P. A novel short-term load forecasting framework based on time-series clustering and early classification algorithm. \journal{Energy and Buildings} 2021;251:111375. (IF: 7.1)
+\item \me{Chen Z}, Xu P*, Feng F, Qiao Y, Luo W. Data mining algorithm and framework for identifying HVAC control strategies in large commercial buildings. \journal{Building Simulation} 2021;14:63--74. (IF: 5.9)
+\item \me{Chen Z}, Zhang J, Xiao F*, Madsen H, Xu K. Probabilistic machine learning for enhanced chiller sequencing: A risk-based control strategy. \journal{Energy and Built Environment} 2025;6:783--95. (ESCI indexed, Scopus CiteScore: 17.3)
+\item Chen Y, \me{Chen Z}*. Short-term load forecasting for multiple buildings: A length sensitivity-based approach. \journal{Energy Reports} 2022;8:14274--88. (IF: 5.1, 通讯作者)
+\item Chen Y*, Guo M, Chen Z, \me{Chen Z}*, Ji Y. Physical energy and data-driven models in building energy prediction: A review. \journal{Energy Reports} 2022;8:2656--71. (IF: 5.1, 通讯作者, ESI热点论文, ESI高被引论文)
+\item Tang H, \me{Chen Z}, Li H, Wang S*. Risk-aware optimal dispatch of resource aggregators integrating NGBoost-based probabilistic renewable forecasting and bi-level building flexibility engagements. \journal{Engineering} 2025;53:76--89.
+\item Xu K, \me{Chen Z}, Xiao F*, Zhang J, Zhang H, Ma T. Semantic model-based large-scale deployment of AI-driven building management applications. \journal{Automation in Construction} 2024;165:105579.
+\item Chen Y, \me{Chen Z}, Xu P*, Li W, Sha H, Yang Z, et al. Quantification of electricity flexibility in demand response: Office building case study. \journal{Energy} 2019;188:116054.
+\item Chen Y, \me{Chen Z}, Ding Y, Du Y*, Li B, Liu J, et al. Towards Transformer Winding Deformation Fault Diagnosis under Data Scarcity: Integrating Frequency Response Analysis with Metric Learning. \journal{IEEE Transactions on Dielectrics and Electrical Insulation} 2026:1--1.
+\item Chen Y*, \me{Chen Z}, Yuan X, Su L, Li K*. Optimal control strategies for demand response in buildings under penetration of renewable energy. \journal{Buildings} 2022;12:371.
+\item Chen Y, Xu P*, \me{Chen Z}, Wang H, Sha H, Ji Y, et al. Experimental investigation of demand response potential of buildings: Combined passive thermal mass and active storage. \journal{Applied Energy} 2020;280:115956.
+\item Song Z, Xiao F*, \me{Chen Z}, Madsen H. Probabilistic ultra-short-term solar photovoltaic power forecasting using natural gradient boosting with attention-enhanced neural networks. \journal{Energy and AI} 2025;20:100496.
+\item Chen Y*, Yang Q*, \me{Chen Z}, Yan C, Zeng S, Dai M. Physics-informed neural networks for building thermal modeling and demand response control. \journal{Building and Environment} 2023;234:110149.
+\item Chen Y*, Wang H*, \me{Chen Z}. Sensitivity analysis of physical regularization in physics-informed neural networks (PINNs) of building thermal modeling. \journal{Building and Environment} 2025;273:112693.
+\item Xiao Z, Zhang J, \me{Chen Z}, Xiao F*. Probabilistic building energy savings verification via triplet network-based adaptive reference day selection. \journal{Energy and Buildings} 2026;364:117664. (IF: 7.1)
+\item Chen Y*, Chen Z, \me{Chen Z}, Yuan X. Dynamic modeling of solar-assisted ground source heat pump using Modelica. \journal{Applied Thermal Engineering} 2021;196:117324.
+\item Yuan H, Chen Y*, \me{Chen Z}. Investigation on Electricity Flexibility and Demand-Response Strategies for Grid-Interactive Buildings. \journal{Buildings} 2025;15:4368.
+\item Xiao T, Xu P*, Ding R, \me{Chen Z}. An interpretable method for identifying mislabeled commercial building based on temporal feature extraction and ensemble classifier. \journal{Sustainable Cities and Society} 2022;78:103635.
+\item Chu Y, Xu P*, Li M, \me{Chen Z}, Chen Z, Chen Y, et al. Short-term metropolitan-scale electric load forecasting based on load decomposition and ensemble algorithms. \journal{Energy and Buildings} 2020;225:110343.
+\item Xiao Z, Zhang J*, Xiao F*, \me{Chen Z}, Xu K, So PM, et al. An AI-enabled optimal control strategy utilizing dual-horizon load predictions for large building cooling systems and its cloud-based implementation. \journal{Energy and Buildings} 2025;330:115352.
+\item Yuan H, Chen Y*, Di Gangi A, \me{Chen Z}. Energy Flexibility Evaluation for Building Passive Thermal Storage Mass. \journal{Energies} 2026;19:1035. (IF: 3.2)
+\item Han C, Chen Y*, Wang H, Zhan S, \me{Chen Z}. Development and validation of a data quality assessment framework for machine learning-based building load prediction. \journal{Applied Energy} 2026;415:127925.
+\item Sha H, Xu P*, Hu C, Li Z, Chen Y, \me{Chen Z}. A simplified HVAC energy prediction method based on degree-day. \journal{Sustainable Cities and Society} 2019;51:101698.
+\item Li A, Zhang J, Xiao F*, Fan C, Yu Y, \me{Chen Z}. Design information-assisted graph neural network for modeling central air conditioning systems. \journal{Advanced Engineering Informatics} 2024;60:102379.
+\item Gu J, Xu P*, Pang Z, Chen Y, Ji Y, \me{Chen Z}. Extracting typical occupancy data of different buildings from mobile positioning data. \journal{Energy and Buildings} 2018;180:135--45.
+\end{enumerate}
+
+\cvsubsection{会议论文与报告}{\color{darkblue}会议论文与报告}
+\begin{enumerate}
+\item \me{Chen Z}, Xiao F*. A novel demand response detection and capacity prediction framework. \textit{Applied Energy Symposium: AIXEnergy}, May 2026, Ningbo, China.
+\item \me{Chen Z}, Xiao F*. Reliably estimating energy savings using data-driven models as the baseline. \textit{International Conference on Building and Simulation} \textbf{(BAS)}, July 2025, Borlänge, Sweden.
+\item \me{Chen Z}, Xiao F*. Robust comparison of optimization algorithms for optimal chiller loading. \textit{International Conference on Sustainable Development in Building and Environment} \textbf{(SuDBE)}, Aug.\ 2023, Espoo, Finland.
+\item \me{Chen Z}, Xiao F*. Similarity learning-based FDD in building HVAC systems. \textit{The 3rd International Conference for Global Chinese Academia on Energy and Built Environment International} \textbf{(CEBE)}, July 2023, Shanghai, China.
+\item \me{Chen Z}, Chen Y*, Mohtaram S. Quantifying HVAC electrical flexibility from building thermal mass: a case study of the DOE reference building. \textit{The 16th ROOMVENT Conference} \textbf{(ROOMVENT)}, Sept.\ 2022, Xi'an, China.
+\item \me{Chen Z}, Xiao F*. Interpretable machine learning for AHU fault detection and diagnosis: Rule extraction from black-box models. \textit{The 14th International Conference on Applied Energy} \textbf{(ICAE)}, Aug.\ 2022, Bochum, Germany.
+\item \me{Chen Z}, Chen Y*. A multi-objective optimization-based load scheduling approach for demand response in smart grid. \textit{The 2nd International Conference for Global Chinese Academia on Energy and Built Environment International} \textbf{(CEBE)}, July 2021, Chengdu, China.
+\item \me{Chen Z}, Xu P*, Chen Y. A peer-to-peer electricity system and its simulation. \textit{The 4th Asia Conference of International Building Performance Simulation Association} \textbf{(ASIM)}, Dec.\ 2018, Hong Kong, China.
+\end{enumerate}
+
+\cvsubsection{会议分会场主席}{\color{darkblue}会议分会场主席}
+\begin{enumerate}
+\item \textit{The 2nd International Conference on Digital Intelligence for Energy Systems} \textbf{(ICDIES)}, Oct.\ 2026, Wollongong, Australia.
+\item \textit{Applied Energy Symposium: AIXEnergy}, May 2026, Ningbo, China.
+\end{enumerate}
+
+\cvsubsection{邀请报告}{\color{darkblue}邀请报告}
+\begin{enumerate}
+\item Demand Response Detection and Capacity Prediction using Ensemble Learning. \textit{IEEE International Conference on Energy Technologies for Future Grids}，Dec.\ 2025, Wollongong, Australia.（受邀作为FlexTrack Challenge冠军）
+\item Embarking on your research journey: My experience at PolyU BEEE. \textit{Research Postgraduate Student Orientation, Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University}，Sept.\ 2025, Hong Kong, China.（受邀作为博士毕业生代表）
+\end{enumerate}
+
+% =============================================================================
+%  PATENTS
+% =============================================================================
+\cvsection{发明专利（已授权）}{发明专利（已授权）}
+\begin{enumerate}
+\item 一种居住建筑多能互补的需求响应控制方法，CN202110226687.0。
+\item 一种冷水机组控制方法、装置、设备及存储介质，CN118189539B。
+\item 一种基于拓扑分层抽象的空调水系统原理图自动成图方法，CN202010507609.3。
+\item 一种空调系统中水系统路径寻优方法，CN202011126801.4。
+\item 一种管道井寻优算法，CN202011074593.8。
+\item 一种暖通空调系统设备自动选型算法，CN202110515557.9。
+\end{enumerate}
+
+% =============================================================================
+%  RESEARCH PROJECTS
+% =============================================================================
+\cvsection{项目经历}{项目经历}
+\begin{longtable}{@{}p{2.7cm} >{\RaggedRight\arraybackslash}p{\dimexpr\textwidth-2.7cm-2\tabcolsep\relax}@{}}
+2025--2027 &
+  \textbf{面向碳中和的建筑暖通空调系统智能化与可扩展数据驱动管理技术研发}\newline
+  香港理工大学杰出博士后研究员计划，HK\$841,040，P0053872\newline
+  承担内容：获资助博士后研究 \\
+2022--2024 &
+  \textbf{智能数据推动楼宇管理架构应用于环境保护及可持续发展}\newline
+  香港特别行政区创新及科技基金，ITP/002/22LP\newline
+  承担内容：大型建筑数据驱动管理技术示范研究 \\
+2021--2024 &
+  \textbf{高密度城市中建筑综合能源系统的智能管理技术研发}\newline
+  国家重点研发计划，2021YFE0107400\newline
+  承担内容：建筑能源系统数据驱动建模与优化研究 \\
+2017--2021 &
+  \textbf{分布式综合能源系统联合仿真技术}\newline
+  国家重点研发计划，2017YFB0903404\newline
+  承担内容：分布式综合能源系统建模研究 \\
+\end{longtable}
+
+% =============================================================================
+%  ACADEMIC SERVICE
+% =============================================================================
+\cvsection{学术兼职}{学术兼职}
+\begin{tabularx}{\textwidth}{@{}p{2.7cm} M@{}}
+期刊编委 & \textit{Carbon Neutrality}青年编委（IF: 12.5, Q1） \\
+客座编辑 & \textit{Buildings}期刊专题客座编辑（ISSN 2075-5309）\newline
+            \textit{Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control} \\
+期刊评审 & 受邀担任多个期刊审稿人，包括：\textit{Applied Energy, Automation in Construction, Energy Conversion and Management, Journal of Cleaner Production, Advanced Engineering Informatics, Engineering Applications of Artificial Intelligence, Computers in Industry, Energy, Building and Environment, Applied Thermal Engineering, Energy and Buildings, Building Simulation, iScience} \\
+协会会员 & 国际建筑性能模拟协会（International Building Performance Simulation Association, IBPSA）\newline
+            国际能源与建筑环境学会（International Society of Energy and Built Environment, ISEBE） \\
+\end{tabularx}
+
+% =============================================================================
+%  TEACHING
+% =============================================================================
+\cvsection{教学与指导经历}{教学与指导经历}
+\begin{tabularx}{\textwidth}{@{}p{2.7cm} X r@{}}
+学生指导 & BSE3716 \& BSE4726 Capstone Research Project，2025--2026 & 6名本科生 \\
+           & BSE3713 \& BSE4725 Capstone Research Project，2023--2024 & 2名本科生 \\
+\end{tabularx}
+
+\end{document}

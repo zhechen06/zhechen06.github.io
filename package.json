@@ -1,0 +1,51 @@
+{
+  "name": "PRISM",
+  "version": "1.3.3",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbopack",
+    "prebuild": "node scripts/check-node-version.mjs && node scripts/clean-macos-artifacts.mjs && node scripts/update-last-updated.mjs",
+    "build": "next build",
+    "postbuild": "node scripts/clean-macos-artifacts.mjs",
+    "scholar:stats": "uv run python google_scholar_crawler/main.py",
+    "publication:ranks": "uv run python scripts/update_publication_ranks.py",
+    "publication:accepted-dates": "uv run python scripts/update_publication_accept_dates.py",
+    "cv:publication-sync-check": "uv run python scripts/check_cv_publication_sync.py",
+    "content:check": "uv run --with pypdf python scripts/check_content_integrity.py",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.4",
+    "@heroicons/react": "^2.2.0",
+    "bibtex-parse-js": "^0.0.24",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.18.1",
+    "lucide-react": "^0.515.0",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0",
+    "smol-toml": "^1.5.2",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "lightningcss": "^1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "lightningcss-linux-x64-gnu": "^1"
+  },
+  "engines": {
+    "node": ">=22.0.0 <26.0.0"
+  }
+}

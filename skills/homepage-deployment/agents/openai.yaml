@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage Deployment"
+  short_description: "Build and verify GitHub Pages deployment"
+  default_prompt: "Use $homepage-deployment to build and verify the homepage deployment."

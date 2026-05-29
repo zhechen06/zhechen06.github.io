@@ -1,0 +1,52 @@
+[site]
+title = "陈喆"
+description = "陈喆的个人学术主页，理大杰出博士后。"
+last_updated = "2026年5月30日"
+
+[author]
+name = "陈喆"
+title = "理大杰出博士后"
+institution = "香港理工大学\n建筑环境及能源工程学系"
+
+[social]
+location = "香港"
+location_details = [
+  "香港九龙红磡漆咸道南181号",
+  "香港理工大学Z座ZN1001室"
+]
+
+[[navigation]]
+title = "首页"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "获奖"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "报告"
+type = "page"
+target = "talks"
+href = "/talks"
+
+[[navigation]]
+title = "服务"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "简历"
+type = "page"
+target = "cv"
+href = "/cv"

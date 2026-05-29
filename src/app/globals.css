@@ -1,0 +1,389 @@
+@import "tailwindcss";
+
+/* Explicitly set dark mode to use class strategy */
+@variant dark (&:where(.dark, .dark *));
+
+/* Default to light theme colors - no system preference detection */
+:root,
+.light {
+  /* Light theme colors */
+  --background: #f8f8f8;
+  --foreground: #0f172a;
+  
+  /* Brand colors - Deep Navy & Gold */
+  --primary: #1e293b;
+  --primary-light: #334155;
+  --primary-dark: #0f172a;
+  --accent: #A63547;
+  --accent-light: #bf4a5e;
+  --accent-dark: #842b39;
+  
+  /* Neutral colors */
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #6b7280;
+  --neutral-500: #4b5563;
+  --neutral-600: #334155;
+  --neutral-700: #1f2937;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  
+  /* Semantic colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+  
+  /* Glass effect */
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: rgba(0, 0, 0, 0.1);
+}
+
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-dark: var(--accent-dark);
+  
+  /* Neutral palette */
+  --color-neutral-50: var(--neutral-50);
+  --color-neutral-100: var(--neutral-100);
+  --color-neutral-200: var(--neutral-200);
+  --color-neutral-300: var(--neutral-300);
+  --color-neutral-400: var(--neutral-400);
+  --color-neutral-500: var(--neutral-500);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-700: var(--neutral-700);
+  --color-neutral-800: var(--neutral-800);
+  --color-neutral-900: var(--neutral-900);
+  
+  /* Semantic colors */
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --color-info: var(--info);
+  
+  /* Glass effect */
+  --color-glass-bg: var(--glass-bg);
+  --color-glass-border: var(--glass-border);
+  --color-glass-shadow: var(--glass-shadow);
+  
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  
+  /* Font sizes */
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.35;
+  --text-sm: 0.9375rem;
+  --text-sm--line-height: 1.55;
+  --text-base: 1rem;
+  --text-base--line-height: 1.6;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.55;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.45;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 1.35;
+  --text-3xl: 2rem;
+  --text-3xl--line-height: 1.2;
+  --text-4xl: 2rem;
+  --text-4xl--line-height: 1.2;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 1.1;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1.05;
+  --text-7xl: 4.5rem;
+  --text-7xl--line-height: 1;
+  --text-8xl: 6rem;
+  --text-8xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+  
+  /* Letter spacing */
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+  
+  /* Line heights */
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+}
+
+/* Keep Chinese headings/title text aligned with the site sans-serif stack. */
+html:lang(zh),
+html[data-locale^="zh"] {
+  --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Dark mode styles */
+.dark {
+  --background: #121212;
+  --foreground: #f8fafc;
+  
+  /* Adjust colors for dark mode */
+  --primary: #f8fafc;
+  --primary-light: #e2e8f0;
+  --primary-dark: #cbd5e1;
+  --accent: #E66F83;
+  --accent-light: #F3A7B4;
+  --accent-dark: #BF4B61;
+  
+  /* Dark mode glass effect */
+  --glass-bg: rgba(15, 23, 42, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: rgba(0, 0, 0, 0.5);
+  
+  /* Neutral colors for dark mode - properly inverted */
+  --neutral-50: #0f172a;
+  --neutral-100: #1e293b;
+  --neutral-200: #334155;
+  --neutral-300: #9fb0c3;
+  --neutral-400: #aebbd0;
+  --neutral-500: #c5cfdd;
+  --neutral-600: #dbe3ef;
+  --neutral-700: #eef2f8;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: var(--line-height-normal);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  isolation: isolate;
+  position: relative;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.text-ui-heading {
+  color: var(--primary);
+}
+
+.text-ui-body {
+  color: var(--neutral-700);
+}
+
+.text-ui-muted {
+  color: var(--neutral-600);
+}
+
+.text-ui-accent {
+  color: var(--accent);
+}
+
+.hover\:text-ui-heading:hover {
+  color: var(--primary);
+}
+
+.hover\:text-ui-accent:hover {
+  color: var(--accent);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -18%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 22%, rgba(117, 166, 196, 0.72) 0%, transparent 60%),
+    radial-gradient(circle at 78% 74%, rgba(188, 174, 224, 0.62) 0%, transparent 58%),
+    radial-gradient(circle at 42% 8%, rgba(220, 178, 128, 0.5) 0%, transparent 40%),
+    radial-gradient(circle at 92% 38%, rgba(139, 184, 151, 0.56) 0%, transparent 44%);
+  filter: blur(104px);
+  opacity: 0.94;
+  transform: translateZ(0);
+  transition: opacity 0.5s ease, background 0.5s ease;
+}
+
+.dark body::before {
+  background:
+    radial-gradient(circle at 20% 80%, #2D5B8F 0%, transparent 75%),
+    radial-gradient(circle at 80% 20%, #5A589F 0%, transparent 60%),
+    radial-gradient(circle at 5% 50%, #8E8EF8 0%, transparent 45%),
+    radial-gradient(circle at 95% 5%, #1D2E55 0%, transparent 50%);
+  opacity: 0.8;
+}
+
+.academic-social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.academic-social-icon-inner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, color 0.2s ease, stroke 0.2s ease, fill 0.2s ease;
+}
+
+.academic-social-icon:hover .academic-social-icon-inner {
+  transform: rotate(6deg);
+}
+
+.dark button svg,
+.dark a svg {
+  opacity: 1;
+  stroke-width: 2.2;
+}
+
+.dark .academic-social-icon svg {
+  stroke-width: 2.35;
+}
+
+.publication-action {
+  border: 1px solid transparent;
+}
+
+.dark .publication-action {
+  color: #f8fafc;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.dark .publication-action:hover {
+  color: #ffffff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.dark .publication-action svg {
+  color: currentColor;
+  stroke-width: 2.3;
+}
+
+.frosted-surface {
+  background: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.45);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  backdrop-filter: blur(18px) saturate(140%);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.dark .frosted-surface {
+  background: rgba(15, 23, 42, 0.5);
+  border-color: rgba(148, 163, 184, 0.22);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+}
+
+.frosted-surface-quiet {
+  background: rgba(255, 255, 255, 0.38);
+  border-color: rgba(255, 255, 255, 0.34);
+  -webkit-backdrop-filter: blur(14px) saturate(135%);
+  backdrop-filter: blur(14px) saturate(135%);
+}
+
+.dark .frosted-surface-quiet {
+  background: rgba(15, 23, 42, 0.38);
+  border-color: rgba(148, 163, 184, 0.18);
+}
+
+/* Typography utilities */
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Glass morphism utilities */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-glass);
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-glass);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--neutral-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neutral-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neutral-400);
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: var(--neutral-800);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--neutral-600);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--neutral-500);
+}
+
+/* Card background utility */
+.card-bg {
+  background-color: #ffffff;
+}
+
+.dark .card-bg {
+  background-color: #1e293b;
+  /* Soften card borders in dark mode only */
+  border-color: rgba(148, 163, 184, 0.24);
+}

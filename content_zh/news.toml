@@ -1,0 +1,283 @@
+[[news]]
+date = "2026-10"
+tag = "服务"
+content = "担任 ICDIES 2026 分会场主席，会议地点为澳大利亚卧龙岗。"
+
+[[news]]
+date = "2026-05"
+tag = "服务"
+content = "担任 Applied Energy Symposium: AIXEnergy 分会场主席，会议地点为中国宁波。"
+links = [{ label = "附件", url = "/services/aixenergy-2026.jpg" }]
+
+[[news]]
+date = "2026-05"
+tag = "报告"
+content = "在 Applied Energy Symposium: AIXEnergy 作题为 \"A novel demand response detection and capacity prediction framework\" 的会议报告，会议地点为中国宁波。"
+
+[[news]]
+date = "2026-04"
+tag = "履历"
+content = "指导六名本科生完成 BSE3716/BSE4726 毕业设计研究。"
+
+[[news]]
+date = "2025-12"
+tag = "报告"
+content = "受邀在 IEEE International Conference on Energy Technologies for Future Grids 作题为 \"Demand Response Detection and Capacity Prediction using Ensemble Learning\" 的报告，会议地点为澳大利亚卧龙岗。"
+
+[[news]]
+date = "2025-12"
+tag = "奖项"
+content = "获得 AIcrowd FlexTrack Challenge: Detecting Energy Flexibility in Buildings 冠军，主办方为 AIcrowd、新南威尔士州政府与卧龙岗大学，面向能源灵活性预测，排名 1/610，获奖金 AU$10,000。"
+links = [
+  { label = "附件", url = "/awards/flextrack-challenge.jpg" },
+  { label = "来源", url = "https://www.aicrowd.com/challenges/flextrack-challenge-2025/winners" },
+]
+
+[[news]]
+date = "2025-11"
+tag = "论文"
+content = "第一作者论文 \"Bridging the gap between data-driven baselines and energy saving uncertainty for building retrofit\" 被 Energy 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.energy.2025.139292" }]
+
+[[news]]
+date = "2025-10"
+tag = "论文"
+content = "第一作者论文 \"Multi-objective online optimization of building energy systems for improved control smoothness and efficiency\" 被 Automation in Construction 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.autcon.2025.106604" }]
+
+[[news]]
+date = "2025-09"
+tag = "报告"
+content = "受邀在香港理工大学 BEEE 研究生迎新活动作题为 \"Embarking on your research journey: My experience at PolyU BEEE\" 的报告，活动地点为中国香港。"
+
+[[news]]
+date = "2025-09"
+tag = "服务"
+content = "获聘为 Carbon Neutrality 青年编委（IF: 12.5）。"
+links = [
+  { label = "附件", url = "/services/carbon-neutrality-young-editorial-board.jpg" },
+]
+
+[[news]]
+date = "2025-09"
+tag = "服务"
+content = "担任 Buildings 特刊 \"Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control\" 客座编辑。"
+links = [
+  { label = "附件", url = "/services/buildings-editor-certificate.jpg" },
+  { label = "来源", url = "https://www.mdpi.com/journal/buildings/special_issues/4B12E57H42" },
+]
+
+[[news]]
+date = "2025-08"
+tag = "奖项"
+content = "获得香港理工大学建设及环境学院杰出博士论文奖，该奖项授予 2024/2025 年度学院 117 位 PhD 毕业生中的 3 位（top 2.5%），本系唯一获奖者。"
+links = [
+  { label = "附件", url = "/awards/fce-outstanding-thesis.jpg" },
+  { label = "来源", url = "https://www.polyu.edu.hk/beee/news-and-events/news/2025/20250827--beees-phd-student-selected-for-the-fce-awards-for-outstanding-phd-theses/" },
+]
+
+[[news]]
+date = "2025-07"
+tag = "报告"
+content = "在 International Conference on Building and Simulation (BAS) 作题为 \"Reliably estimating energy savings using data-driven models as the baseline\" 的会议报告，会议地点为瑞典博伦厄。"
+
+[[news]]
+date = "2025-05"
+tag = "论文"
+content = "第一作者论文 \"Physically Consistent Data-Driven Optimal Sequencing Strategy for Variable Speed Pumps in Large Building Chiller Plants\" 被 Building and Environment 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.buildenv.2025.113177" }]
+
+[[news]]
+date = "2025-02"
+tag = "履历"
+content = "启动香港理工大学杰出博士后研究员项目，开展面向建筑暖通空调系统的智能化与可扩展数据驱动管理技术研究。"
+
+[[news]]
+date = "2024-12"
+tag = "履历"
+content = "完成博士论文答辩，得到评审委员们的一致优秀评价，获得博士学位。"
+
+[[news]]
+date = "2024-12"
+tag = "论文"
+content = "第一作者论文 \"Development of a probabilistic cooling load prediction-based robust chiller sequencing strategy and its real-world implementation\" 被 Applied Energy 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.apenergy.2024.125213" }]
+
+[[news]]
+date = "2024-11"
+tag = "奖项"
+content = "香港理工大学杰出博士后研究员资助获得者，并入围 RGC Junior Research Fellow Scheme（本系唯一提名人）。"
+
+[[news]]
+date = "2024-04"
+tag = "履历"
+content = "指导两名本科生完成 BSE3713/BSE4725 毕业设计研究。"
+
+[[news]]
+date = "2024-03"
+tag = "论文"
+content = "第一作者论文 \"Probabilistic Machine Learning for Enhanced Chiller Sequencing: A Risk-Based Control Strategy\" 被 Energy and Built Environment 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.enbenv.2024.03.003" }]
+
+[[news]]
+date = "2024-03"
+tag = "奖项"
+content = "获得 Advances in Applied Energy 高被引论文奖，表彰该期刊 2023 年发表论文中被引次数最高论文。"
+links = [
+  { label = "附件", url = "/awards/adapen-highly-cited.jpg" },
+  { label = "来源", url = "https://research.polyu.edu.hk/en/prizes/highly-cited-paper-award-2024-by-advances-in-applied-energy/" },
+]
+
+[[news]]
+date = "2023-12"
+tag = "奖项"
+content = "获得首届大湾区数据应用创新大赛冠军，主办方为深圳市发展和改革委员会，面向分布式光伏发电量预测，获奖金 CN¥100,000，受邀向主办方领导展示并获得高度评价。"
+links = [
+  { label = "附件", url = "/awards/gba-data-ai.jpg" },
+  { label = "来源 1", url = "https://www.polyu.edu.hk/rio/news/2023/20231228---the-first-greater-bay-area-data-application-innovation-competition/" },
+  { label = "来源 2", url = "https://www.jdonline.com.hk/content_84766.html" },
+]
+
+[[news]]
+date = "2023-11"
+tag = "奖项"
+content = "获得第 21 届 MDV 中央空调设计应用大赛杰出控制奖，主办方为美的楼宇科技，成果为 AI-enabled chiller plant control；该比赛被誉为 HVAC 领域的“奥斯卡”。"
+links = [
+  { label = "附件", url = "/awards/mdv-control-award.jpg" },
+  { label = "来源", url = "https://biz.co188.com/content_info_62864555_1.html" },
+]
+
+[[news]]
+date = "2023-08"
+tag = "报告"
+content = "在 International Conference on Sustainable Development in Building and Environment (SuDBE) 作题为 \"Robust comparison of optimization algorithms for optimal chiller loading\" 的会议报告，会议地点为芬兰埃斯波。"
+
+[[news]]
+date = "2023-07"
+tag = "论文"
+content = "第一作者论文 \"Similarity learning-based fault detection and diagnosis in building HVAC systems with limited labeled data\" 被 Renewable and Sustainable Energy Reviews 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.rser.2023.113612" }]
+
+[[news]]
+date = "2023-07"
+tag = "报告"
+content = "在第三届全球华人能源与人工环境国际学术会议 (CEBE) 作题为 \"Similarity learning-based FDD in building HVAC systems\" 的会议报告，会议地点为中国上海。"
+
+[[news]]
+date = "2023-05"
+tag = "奖项"
+content = "获得 Schneider AI Master Cup 算法大赛冠军，主办方为施耐德电气与百度飞桨，面向建筑用电负荷预测，排名 1/331，获奖金 CN¥20,000，受邀前往乌镇互联网国际会展中心领奖。"
+links = [
+  { label = "附件", url = "/awards/schneider-ai-master-cup.jpg" },
+  { label = "来源", url = "https://www.china5e.com/news/news-1153321-1.html" },
+]
+
+[[news]]
+date = "2023-03"
+tag = "奖项"
+content = "论文获 ESI 热点论文和高被引论文认定。"
+links = [
+  { label = "DOI", url = "https://doi.org/10.1016/j.egyr.2022.01.162" },
+]
+
+[[news]]
+date = "2023-02"
+tag = "奖项"
+content = "获得 UNiLAB 智慧能源系统算法大赛冠军，主办方为 UNiLAB 与阿里巴巴天池，面向分布式光伏发电量预测，排名 1/513，获奖金 CN¥20,000。"
+links = [
+  { label = "附件", url = "/awards/unilab-smart-energy.jpg" },
+  { label = "来源", url = "https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn" },
+]
+
+[[news]]
+date = "2023-01"
+tag = "论文"
+content = "第一作者论文 \"Interpretable machine learning for building energy management: A state-of-the-art review\" 被 Advances in Applied Energy 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.adapen.2023.100123" }]
+
+[[news]]
+date = "2022-10"
+tag = "论文"
+content = "通讯作者论文 \"Short-term load forecasting for multiple buildings: A length sensitivity-based approach\" 被 Energy Reports 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.egyr.2022.10.425" }]
+
+[[news]]
+date = "2022-10"
+tag = "奖项"
+content = "第一作者需求响应调度论文获 Eni Award Committee 提名为 Eni Award 2023。"
+links = [
+  { label = "来源 1", url = "https://en.usst.edu.cn/info/1061/2558.htm" },
+  { label = "来源 2", url = "https://shlgwm.usst.edu.cn/_t246/2022/1031/c4764a297289/page.htm" },
+]
+
+[[news]]
+date = "2022-09"
+tag = "报告"
+content = "在第 16 届 ROOMVENT Conference (ROOMVENT) 作题为 \"Quantifying HVAC electrical flexibility from building thermal mass: a case study of the DOE reference building\" 的会议报告，会议地点为中国西安。"
+
+[[news]]
+date = "2022-08"
+tag = "报告"
+content = "在第 14 届 International Conference on Applied Energy (ICAE) 作题为 \"Interpretable machine learning for AHU fault detection and diagnosis: Rule extraction from black-box models\" 的会议报告，会议地点为德国波鸿。"
+
+[[news]]
+date = "2022-07"
+tag = "奖项"
+content = "凭项目“AR-enabled Smart Building Energy Management Platform”获得 PolyU i-Space: VRAR Contest 2021/22 冠军。"
+links = [
+  { label = "附件", url = "/awards/vrar-contest.jpg" },
+  { label = "来源", url = "https://www.lib.polyu.edu.hk/publications/2022/09/vr_ar_contest/" },
+]
+
+[[news]]
+date = "2022-06"
+tag = "履历"
+content = "担任香港 ITF 项目 ITP/002/22LP 主要研究人员。"
+
+[[news]]
+date = "2022-06"
+tag = "奖项"
+content = "凭建筑冷负荷预测获得 Global AI Challenge for Building E&M Facilities 银奖。"
+links = [
+  { label = "附件", url = "/awards/global-ai-challenge.jpg" },
+  { label = "来源", url = "https://www.globalaichallenge.com/" },
+]
+
+[[news]]
+date = "2022-05"
+tag = "履历"
+content = "担任国家重点研发计划项目 2021YFE0107400 主要研究人员。"
+
+[[news]]
+date = "2022-01"
+tag = "论文"
+content = "通讯作者论文 \"Physical energy and data-driven models in building energy prediction: A review\" 被 Energy Reports 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.egyr.2022.01.162" }]
+
+[[news]]
+date = "2021-10"
+tag = "论文"
+content = "第一作者论文 \"Multi-objective residential load scheduling approach for demand response in smart grid\" 被 Sustainable Cities and Society 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.scs.2021.103530" }]
+
+[[news]]
+date = "2021-09"
+tag = "履历"
+content = "开始在香港理工大学攻读博士学位。"
+
+[[news]]
+date = "2021-09"
+tag = "奖项"
+content = "首届香港理工大学校长卓越博士生奖学金获得者。"
+
+[[news]]
+date = "2021-08"
+tag = "论文"
+content = "第一作者论文 \"A novel short-term load forecasting framework based on time-series clustering and early classification algorithm\" 被 Energy and Buildings 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.enbuild.2021.111375" }]
+
+[[news]]
+date = "2019-11"
+tag = "论文"
+content = "第一作者论文 \"Data mining algorithm and framework for identifying HVAC control strategies in large commercial buildings\" 被 Building Simulation 接收。"
+links = [{ label = "DOI", url = "https://doi.org/10.1007/s12273-019-0599-0" }]

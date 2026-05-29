@@ -1,0 +1,4 @@
+type = "publication"
+title = "学术论文"
+description = "论文列表、筛选与 Google Scholar 指标。"
+source = "publications.bib"

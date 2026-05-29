@@ -1,0 +1,62 @@
+name: Update Google Scholar Stats
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/google-scholar-stats.yml'
+      - 'google_scholar_crawler/**'
+      - 'pyproject.toml'
+      - 'uv.lock'
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: google-scholar-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Generate Google Scholar stats
+        id: scholar
+        env:
+          SCHOLAR_FETCH_ATTEMPTS: '2'
+          SCHOLAR_FETCH_TIMEOUT_SECONDS: '12'
+          SCHOLAR_FREE_PROXY_TIMEOUT_SECONDS: '35'
+          SCHOLARLY_ATTEMPT_TIMEOUT_SECONDS: '45'
+          SCHOLAR_FETCH_ORDER: scholarly_free_proxy,direct,scholarly
+        run: |
+          uv run python google_scholar_crawler/main.py
+          fetch_status="$(uv run python - <<'PY'
+          import json
+          from pathlib import Path
+
+          stats = json.loads(Path("google-scholar-stats/gs_data.json").read_text(encoding="utf-8"))
+          print(stats.get("fetch_status", "unknown"))
+          PY
+          )"
+          echo "fetch_status=${fetch_status}" >> "$GITHUB_OUTPUT"
+
+      - name: Publish stats branch
+        if: steps.scholar.outputs.fetch_status == 'fresh'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: google-scholar-stats
+          publish_dir: ./google-scholar-stats
+          force_orphan: true

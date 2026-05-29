@@ -1,0 +1,41 @@
+type = "about"
+title = "About"
+
+[profile]
+research_interests = [
+  "AI-driven control",
+  "Fault detection and diagnosis",
+  "Grid-interactive buildings"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "About"
+
+[[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "Selected publications"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "selected_awards"
+type = "awards"
+title = "Selected awards"
+source = "awards.toml"
+keys = [
+  "fce-outstanding-phd-theses",
+  "adapen-highly-cited-paper-award",
+  "flextrack-challenge",
+  "gba-data-ai",
+  "unilab-smart-energy",
+]

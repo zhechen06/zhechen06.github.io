@@ -1,0 +1,5 @@
+type = "pdf"
+title = "中文简历"
+hide_title = true
+description = "陈喆中文简历的内嵌 PDF 版本。"
+source = "/cv/CV-Zhe-CHEN-Chinese.pdf"

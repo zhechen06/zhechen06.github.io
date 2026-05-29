@@ -1,0 +1,283 @@
+[[news]]
+date = "2026-10"
+tag = "Service"
+content = "Served as Session Chair for ICDIES 2026 in Wollongong, Australia."
+
+[[news]]
+date = "2026-05"
+tag = "Service"
+content = "Served as Session Chair for Applied Energy Symposium: AIXEnergy in Ningbo, China."
+links = [{ label = "Attachment", url = "/services/aixenergy-2026.jpg" }]
+
+[[news]]
+date = "2026-05"
+tag = "Talk"
+content = "Presented \"A novel demand response detection and capacity prediction framework\" at Applied Energy Symposium: AIXEnergy in Ningbo, China."
+
+[[news]]
+date = "2026-04"
+tag = "Career"
+content = "Advised six undergraduate students in BSE3716/BSE4726 capstone research projects."
+
+[[news]]
+date = "2025-12"
+tag = "Talk"
+content = "Delivered the invited talk \"Demand Response Detection and Capacity Prediction using Ensemble Learning\" at IEEE International Conference on Energy Technologies for Future Grids in Wollongong, Australia."
+
+[[news]]
+date = "2025-12"
+tag = "Award"
+content = "Won the AIcrowd FlexTrack Challenge: Detecting Energy Flexibility in Buildings, organized by AIcrowd, the New South Wales Government, and the University of Wollongong, for energy flexibility prediction; ranked 1/610 and awarded AU$10,000."
+links = [
+  { label = "Attachment", url = "/awards/flextrack-challenge.jpg" },
+  { label = "Source", url = "https://www.aicrowd.com/challenges/flextrack-challenge-2025/winners" },
+]
+
+[[news]]
+date = "2025-11"
+tag = "Paper"
+content = "First-author paper accepted in Energy: \"Bridging the gap between data-driven baselines and energy saving uncertainty for building retrofit.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.energy.2025.139292" }]
+
+[[news]]
+date = "2025-10"
+tag = "Paper"
+content = "First-author paper accepted in Automation in Construction: \"Multi-objective online optimization of building energy systems for improved control smoothness and efficiency.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.autcon.2025.106604" }]
+
+[[news]]
+date = "2025-09"
+tag = "Talk"
+content = "Delivered the invited talk \"Embarking on your research journey: My experience at PolyU BEEE\" at the PolyU BEEE Research Postgraduate Student Orientation in Hong Kong, China."
+
+[[news]]
+date = "2025-09"
+tag = "Service"
+content = "Appointed as a Young Editorial Board Member of Carbon Neutrality (IF: 12.5)."
+links = [
+  { label = "Attachment", url = "/services/carbon-neutrality-young-editorial-board.jpg" },
+]
+
+[[news]]
+date = "2025-09"
+tag = "Service"
+content = "Served as Guest Editor for the Buildings special issue \"Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control.\""
+links = [
+  { label = "Attachment", url = "/services/buildings-editor-certificate.jpg" },
+  { label = "Source", url = "https://www.mdpi.com/journal/buildings/special_issues/4B12E57H42" },
+]
+
+[[news]]
+date = "2025-08"
+tag = "Award"
+content = "Earned the FCE Awards for Outstanding PhD Theses at PolyU, an honor awarded to only 3 of the Faculty's 117 PhD graduates in the 2024/2025 academic year (top 2.5%) and the only recipient from the department."
+links = [
+  { label = "Attachment", url = "/awards/fce-outstanding-thesis.jpg" },
+  { label = "Source", url = "https://www.polyu.edu.hk/beee/news-and-events/news/2025/20250827--beees-phd-student-selected-for-the-fce-awards-for-outstanding-phd-theses/" },
+]
+
+[[news]]
+date = "2025-07"
+tag = "Talk"
+content = "Presented \"Reliably estimating energy savings using data-driven models as the baseline\" at the International Conference on Building and Simulation (BAS) in Borlänge, Sweden."
+
+[[news]]
+date = "2025-05"
+tag = "Paper"
+content = "First-author paper accepted in Building and Environment: \"Physically Consistent Data-Driven Optimal Sequencing Strategy for Variable Speed Pumps in Large Building Chiller Plants.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.buildenv.2025.113177" }]
+
+[[news]]
+date = "2025-02"
+tag = "Career"
+content = "Started the PolyU Distinguished Postdoctoral Fellowship project on smart and scalable data-driven management technologies for building HVAC systems."
+
+[[news]]
+date = "2024-12"
+tag = "Career"
+content = "Completed thesis defense, received a unanimous excellent evaluation from the examiners, and was awarded the PhD."
+
+[[news]]
+date = "2024-12"
+tag = "Paper"
+content = "First-author paper accepted in Applied Energy: \"Development of a probabilistic cooling load prediction-based robust chiller sequencing strategy and its real-world implementation.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.apenergy.2024.125213" }]
+
+[[news]]
+date = "2024-11"
+tag = "Award"
+content = "Recipient of the PolyU Distinguished Postdoctoral Fellowship and Finalist for the RGC Junior Research Fellow Scheme (the only nominee from the department)."
+
+[[news]]
+date = "2024-04"
+tag = "Career"
+content = "Advised two undergraduate students in BSE3713/BSE4725 capstone research projects."
+
+[[news]]
+date = "2024-03"
+tag = "Paper"
+content = "First-author paper accepted in Energy and Built Environment: \"Probabilistic Machine Learning for Enhanced Chiller Sequencing: A Risk-Based Control Strategy.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.enbenv.2024.03.003" }]
+
+[[news]]
+date = "2024-03"
+tag = "Award"
+content = "Was awarded the Highly Cited Paper Award from Advances in Applied Energy for the most cited paper published in the journal in 2023."
+links = [
+  { label = "Attachment", url = "/awards/adapen-highly-cited.jpg" },
+  { label = "Source", url = "https://research.polyu.edu.hk/en/prizes/highly-cited-paper-award-2024-by-advances-in-applied-energy/" },
+]
+
+[[news]]
+date = "2023-12"
+tag = "Award"
+content = "Won the First Great Bay Area Data Application Innovation Competition, organized by the Development and Reform Commission of Shenzhen Municipality, for distributed PV generation prediction; awarded CN¥100,000 and invited to present to leaders of the organizer, earning high praise."
+links = [
+  { label = "Attachment", url = "/awards/gba-data-ai.jpg" },
+  { label = "Source 1", url = "https://www.polyu.edu.hk/rio/news/2023/20231228---the-first-greater-bay-area-data-application-innovation-competition/" },
+  { label = "Source 2", url = "https://www.jdonline.com.hk/content_84766.html" },
+]
+
+[[news]]
+date = "2023-11"
+tag = "Award"
+content = "Was awarded the Excellent Control Award in the 21st MDV Central Air Conditioning Design and Application Competition, organized by Midea Building Technologies, for AI-enabled chiller plant control; the competition is regarded as the \"Oscar\" of the HVAC field."
+links = [
+  { label = "Attachment", url = "/awards/mdv-control-award.jpg" },
+  { label = "Source", url = "https://biz.co188.com/content_info_62864555_1.html" },
+]
+
+[[news]]
+date = "2023-08"
+tag = "Talk"
+content = "Presented \"Robust comparison of optimization algorithms for optimal chiller loading\" at the International Conference on Sustainable Development in Building and Environment (SuDBE) in Espoo, Finland."
+
+[[news]]
+date = "2023-07"
+tag = "Paper"
+content = "First-author paper accepted in Renewable and Sustainable Energy Reviews: \"Similarity learning-based fault detection and diagnosis in building HVAC systems with limited labeled data.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.rser.2023.113612" }]
+
+[[news]]
+date = "2023-07"
+tag = "Talk"
+content = "Presented \"Similarity learning-based FDD in building HVAC systems\" at the 3rd International Conference for Global Chinese Academia on Energy and Built Environment International (CEBE) in Shanghai, China."
+
+[[news]]
+date = "2023-05"
+tag = "Award"
+content = "Won the Schneider AI Master Cup Algorithm Competition, organized by Schneider Electric and Baidu PaddlePaddle, for building electrical load prediction; ranked 1/331, awarded CN¥20,000, and invited to attend the award ceremony at the Wuzhen International Internet Exhibition & Convention Center."
+links = [
+  { label = "Attachment", url = "/awards/schneider-ai-master-cup.jpg" },
+  { label = "Source", url = "https://www.china5e.com/news/news-1153321-1.html" },
+]
+
+[[news]]
+date = "2023-03"
+tag = "Award"
+content = "Paper recognized with ESI Hot Paper and Highly Cited Paper."
+links = [
+  { label = "DOI", url = "https://doi.org/10.1016/j.egyr.2022.01.162" },
+]
+
+[[news]]
+date = "2023-02"
+tag = "Award"
+content = "Won the UNiLAB Smart Energy System Algorithm Competition, organized by UNiLAB and Alibaba Tianchi, for distributed PV generation prediction; ranked 1/513 and awarded CN¥20,000."
+links = [
+  { label = "Attachment", url = "/awards/unilab-smart-energy.jpg" },
+  { label = "Source", url = "https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn" },
+]
+
+[[news]]
+date = "2023-01"
+tag = "Paper"
+content = "First-author paper accepted in Advances in Applied Energy: \"Interpretable machine learning for building energy management: A state-of-the-art review.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.adapen.2023.100123" }]
+
+[[news]]
+date = "2022-10"
+tag = "Paper"
+content = "Corresponding-author paper accepted in Energy Reports: \"Short-term load forecasting for multiple buildings: A length sensitivity-based approach.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.egyr.2022.10.425" }]
+
+[[news]]
+date = "2022-10"
+tag = "Award"
+content = "First-author demand-response scheduling paper was nominated for the Eni Award 2023 by the Eni Award Committee."
+links = [
+  { label = "Source 1", url = "https://en.usst.edu.cn/info/1061/2558.htm" },
+  { label = "Source 2", url = "https://shlgwm.usst.edu.cn/_t246/2022/1031/c4764a297289/page.htm" },
+]
+
+[[news]]
+date = "2022-09"
+tag = "Talk"
+content = "Presented \"Quantifying HVAC electrical flexibility from building thermal mass: a case study of the DOE reference building\" at the 16th ROOMVENT Conference (ROOMVENT) in Xi'an, China."
+
+[[news]]
+date = "2022-08"
+tag = "Talk"
+content = "Presented \"Interpretable machine learning for AHU fault detection and diagnosis: Rule extraction from black-box models\" at the 14th International Conference on Applied Energy (ICAE) in Bochum, Germany."
+
+[[news]]
+date = "2022-07"
+tag = "Award"
+content = "Won PolyU i-Space: VRAR Contest 2021/22 with the project titled \"AR-enabled Smart Building Energy Management Platform\"."
+links = [
+  { label = "Attachment", url = "/awards/vrar-contest.jpg" },
+  { label = "Source", url = "https://www.lib.polyu.edu.hk/publications/2022/09/vr_ar_contest/" },
+]
+
+[[news]]
+date = "2022-06"
+tag = "Career"
+content = "Served as lead researcher for Hong Kong ITF project ITP/002/22LP."
+
+[[news]]
+date = "2022-06"
+tag = "Award"
+content = "Won the Silver Award in the Global AI Challenge for Building E&M Facilities for building cooling load prediction."
+links = [
+  { label = "Attachment", url = "/awards/global-ai-challenge.jpg" },
+  { label = "Source", url = "https://www.globalaichallenge.com/" },
+]
+
+[[news]]
+date = "2022-05"
+tag = "Career"
+content = "Served as lead researcher for the National Key R&D Program project 2021YFE0107400."
+
+[[news]]
+date = "2022-01"
+tag = "Paper"
+content = "Corresponding-author paper accepted in Energy Reports: \"Physical energy and data-driven models in building energy prediction: A review.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.egyr.2022.01.162" }]
+
+[[news]]
+date = "2021-10"
+tag = "Paper"
+content = "First-author paper accepted in Sustainable Cities and Society: \"Multi-objective residential load scheduling approach for demand response in smart grid.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.scs.2021.103530" }]
+
+[[news]]
+date = "2021-09"
+tag = "Career"
+content = "Started PhD study at The Hong Kong Polytechnic University."
+
+[[news]]
+date = "2021-09"
+tag = "Award"
+content = "Recipient of the inaugural Presidential PhD Fellowship."
+
+[[news]]
+date = "2021-08"
+tag = "Paper"
+content = "First-author paper accepted in Energy and Buildings: \"A novel short-term load forecasting framework based on time-series clustering and early classification algorithm.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.enbuild.2021.111375" }]
+
+[[news]]
+date = "2019-11"
+tag = "Paper"
+content = "First-author paper accepted in Building Simulation: \"Data mining algorithm and framework for identifying HVAC control strategies in large commercial buildings.\""
+links = [{ label = "DOI", url = "https://doi.org/10.1007/s12273-019-0599-0" }]

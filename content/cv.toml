@@ -1,0 +1,5 @@
+type = "pdf"
+title = "CV"
+hide_title = true
+description = "Inline PDF version of my curriculum vitae."
+source = "/cv/CV-Zhe-CHEN.pdf"

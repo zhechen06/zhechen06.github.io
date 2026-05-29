@@ -1,0 +1,106 @@
+type = "card"
+title = "Awards & Honors"
+description = "Selected awards, honors, and competition recognitions."
+
+[[items]]
+id = "flextrack-challenge"
+title = "Champion, FlexTrack Challenge: Detecting Energy Flexibility in Buildings"
+subtitle = "AIcrowd, New South Wales Government, and University of Wollongong"
+date = "2025-12"
+content = "Building energy flexibility prediction, ranked 1/610, and awarded AU$10,000. [Source](https://www.aicrowd.com/challenges/flextrack-challenge-2025/winners)"
+tags = ["Competition"]
+image = "/awards/flextrack-challenge.jpg"
+
+[[items]]
+id = "fce-outstanding-phd-theses"
+title = "FCE Awards for Outstanding PhD Theses"
+subtitle = "The Hong Kong Polytechnic University"
+date = "2025-08"
+content = "Awarded to only 3 of the Faculty's 117 PhD graduates in the 2024/2025 academic year (top 2.5%); the only recipient from the department. [Source](https://www.polyu.edu.hk/beee/news-and-events/news/2025/20250827--beees-phd-student-selected-for-the-fce-awards-for-outstanding-phd-theses/)"
+tags = ["Academic Honor"]
+image = "/awards/fce-outstanding-thesis.jpg"
+
+[[items]]
+title = "Distinguished Postdoctoral Fellowship"
+subtitle = "The Hong Kong Polytechnic University"
+date = "2024-11"
+content = "Recipient of the PolyU Distinguished Postdoctoral Fellowship and Finalist for the RGC Junior Research Fellow Scheme (the only nominee from the department)."
+tags = ["Academic Honor"]
+
+[[items]]
+id = "adapen-highly-cited-paper-award"
+title = "Highly Cited Paper Award"
+subtitle = "Advances in Applied Energy"
+date = "2024-03"
+content = "Awarded for the most cited paper published in the journal in 2023. [Source](https://research.polyu.edu.hk/en/prizes/highly-cited-paper-award-2024-by-advances-in-applied-energy/)"
+tags = ["Paper Recognition"]
+image = "/awards/adapen-highly-cited.jpg"
+
+[[items]]
+id = "gba-data-ai"
+title = "Champion, Great Bay Area Data Application Innovation Competition"
+subtitle = "Development and Reform Commission of Shenzhen Municipality"
+date = "2023-12"
+content = "Distributed PV generation prediction; awarded CN¥100,000, was invited to present to leaders of the Development and Reform Commission of Shenzhen Municipality, and earned high praise. [Source 1](https://www.polyu.edu.hk/rio/news/2023/20231228---the-first-greater-bay-area-data-application-innovation-competition/) [Source 2](https://www.jdonline.com.hk/content_84766.html)"
+tags = ["Competition"]
+image = "/awards/gba-data-ai.jpg"
+
+[[items]]
+title = "Excellent Control Award, 21st MDV Central Air Conditioning Design and Application Competition"
+subtitle = "Midea Building Technologies"
+date = "2023-11"
+content = "AI-enabled chiller plant control; the competition is regarded as the \"Oscar\" of the HVAC field. [Source](https://biz.co188.com/content_info_62864555_1.html)"
+tags = ["Competition"]
+image = "/awards/mdv-control-award.jpg"
+
+[[items]]
+title = "Champion, Schneider AI Master Cup Algorithm Competition"
+subtitle = "Schneider Electric and Baidu PaddlePaddle"
+date = "2023-05"
+content = "Organized by Schneider Electric and Baidu PaddlePaddle; building electrical load prediction, ranked 1/331, awarded CN¥20,000, and was invited to attend the award ceremony at the Wuzhen International Internet Exhibition & Convention Center. [Source](https://www.china5e.com/news/news-1153321-1.html)"
+tags = ["Competition"]
+image = "/awards/schneider-ai-master-cup.jpg"
+
+[[items]]
+title = "ESI Hot Paper and Highly Cited Paper"
+subtitle = "Journal Citation Reports"
+date = "2023-03"
+tags = ["Paper Recognition"]
+
+[[items]]
+id = "unilab-smart-energy"
+title = "Champion, UNiLAB Smart Energy System Algorithm Competition"
+subtitle = "UNiLAB and Alibaba Tianchi"
+date = "2023-02"
+content = "Distributed PV generation prediction, ranked 1/513, and awarded CN¥20,000. [Source](https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn)"
+tags = ["Competition"]
+image = "/awards/unilab-smart-energy.jpg"
+
+[[items]]
+title = "Eni Award 2023 Nomination"
+subtitle = "Eni Award Committee"
+date = "2022-10"
+tags = ["Paper Recognition"]
+
+[[items]]
+title = "Champion, i-Space: VRAR Contest 2021/22"
+subtitle = "The Hong Kong Polytechnic University"
+date = "2022-07"
+content = "Project title: \"AR-enabled Smart Building Energy Management Platform\". [Source](https://www.lib.polyu.edu.hk/publications/2022/09/vr_ar_contest/)"
+tags = ["Competition"]
+image = "/awards/vrar-contest.jpg"
+
+[[items]]
+title = "Silver Award, Global AI Challenge for Building E&M Facilities"
+subtitle = "Electrical and Mechanical Services Department"
+date = "2022-06"
+content = "Building cooling load prediction. [Source](https://www.globalaichallenge.com/)"
+tags = ["Competition"]
+image = "/awards/global-ai-challenge.jpg"
+
+[[items]]
+title = "Presidential PhD Fellowship"
+subtitle = "The Hong Kong Polytechnic University"
+date = "2021-09"
+content = "Recipient of the inaugural Presidential PhD Fellowship."
+tags = ["Academic Honor"]
