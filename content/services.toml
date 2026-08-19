@@ -1,0 +1,98 @@
+type = "card"
+layout = "list"
+title = "Service"
+hide_title = true
+
+[[items]]
+section = "Journal Service"
+title = "Youth Editor"
+content = "***Building Simulation*** (IF: 6.9, Q1)"
+image = "/services/building-simulation-young-editor.jpg"
+
+[[items]]
+section = "Journal Service"
+title = "Youth Editor"
+content = "***Carbon Neutrality*** (IF: 11.2, Q1)"
+image = "/services/carbon-neutrality-young-editor.jpg"
+
+[[items]]
+section = "Journal Service"
+title = "Guest Editor, Special Issue"
+content = "***Buildings*** (ISSN 2075-5309), Special Issue: [\"Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control\"](https://www.mdpi.com/journal/buildings/special_issues/4B12E57H42)"
+image = "/services/buildings-editor-certificate.jpg"
+
+[[items]]
+section = "Journal Service"
+title = "Peer Reviewer"
+content = "***Applied Energy***, ***Automation in Construction***, ***Energy Conversion and Management***, ***Journal of Cleaner Production***, ***Advanced Engineering Informatics***, ***Engineering Applications of Artificial Intelligence***, ***Computers in Industry***, ***Energy***, ***Building and Environment***, ***Applied Thermal Engineering***, ***Energy and Buildings***, ***Building Simulation***, ***iScience***"
+
+[[items]]
+section = "Conference Service"
+title = "Session Chair, ICDIES 2026"
+subtitle = "International Conference on Digital Intelligence for Energy Systems"
+date = "2026"
+content = "Session chair for the 2nd International Conference on Digital Intelligence for Energy Systems  \nOctober 2026, Wollongong, Australia"
+
+[[items]]
+section = "Conference Service"
+title = "Session Chair, AI×Energy 2026"
+subtitle = "Applied Energy Symposium (AI×Energy 2026)"
+date = "2026"
+content = "Session chair for Applied Energy Symposium (AI×Energy 2026)  \nMay 2026, Ningbo, China"
+image = "/services/aixenergy-2026.jpg"
+
+[[items]]
+section = "Professional Memberships"
+title = "Member"
+subtitle = "International Building Performance Simulation Association (IBPSA)"
+date = "Ongoing"
+content = "Member of the International Building Performance Simulation Association"
+
+[[items]]
+section = "Professional Memberships"
+title = "Member"
+subtitle = "International Society of Energy and Built Environment (ISEBE)"
+date = "Ongoing"
+content = "Member of the International Society of Energy and Built Environment"
+
+[[items]]
+section = "Research Projects"
+title = "Development of smart and scalable data-driven management technologies for building HVAC systems towards carbon neutrality"
+subtitle = "PolyU Distinguished Postdoctoral Fellowship Scheme"
+date = "2025-2027"
+content = "Funding: HK$841,040; Project ID: P0053872; Role: Fellowship Awardee"
+
+[[items]]
+section = "Research Projects"
+title = "Smart data-driven building management framework for environmental and sustainability applications"
+subtitle = "Innovation and Technology Fund of Hong Kong"
+date = "2022-2024"
+content = "Funding: HK$7,300,000; Project ID: ITP/002/22LP; Role: Lead researcher for demonstration of data-driven building management technologies in large buildings"
+
+[[items]]
+section = "Research Projects"
+title = "Development of smart energy management technologies for complex building energy systems in high-density cities"
+subtitle = "National Key R&D Program of China"
+date = "2021-2024"
+content = "Funding: CN¥4,120,000; Project ID: 2021YFE0107400; Role: Lead researcher for data-driven modelling and optimization for building energy systems"
+
+[[items]]
+section = "Research Projects"
+title = "Distributed integrated energy system joint simulation technologies"
+subtitle = "National Key R&D Program of China"
+date = "2017-2021"
+content = "Funding: CN¥3,680,000; Project ID: 2017YFB0903404; Role: Lead researcher for distributed integrated energy system modeling"
+
+[[items]]
+section = "Teaching"
+title = "BSE3716 & BSE4726 Capstone Research Project"
+subtitle = "Undergraduate project advising"
+date = "2025-2026"
+content = "Advised six undergraduate students on capstone research projects"
+
+[[items]]
+section = "Teaching"
+title = "BSE3713 & BSE4725 Capstone Research Project"
+subtitle = "Undergraduate project advising"
+date = "2023-2024"
+content = "Advised two undergraduate students on capstone research projects"

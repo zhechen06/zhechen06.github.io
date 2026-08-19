@@ -1,0 +1,42 @@
+type = "about"
+title = "关于"
+
+[profile]
+research_interests = [
+  "智能建筑能源系统可信人工智能",
+  "物理融合与概率建筑能源分析",
+  "基于 AI 智能体的自主建筑运维",
+  "电网交互建筑与能源灵活性"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "关于"
+
+[[sections]]
+id = "news"
+type = "list"
+title = "动态"
+source = "news.toml"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "精选论文"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "selected_awards"
+type = "awards"
+title = "精选奖项"
+source = "awards.toml"
+keys = [
+  "fce-outstanding-phd-theses",
+  "adapen-highly-cited-paper-award",
+  "flextrack-challenge",
+  "gba-data-ai",
+  "unilab-smart-energy",
+]

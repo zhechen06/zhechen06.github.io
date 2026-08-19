@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage CV"
+  short_description: "Sync CV, awards, and verified PDFs"
+  default_prompt: "Use $homepage-cv to update CV sources, sync linked awards/publications, compile PDFs, and verify the CV pages."

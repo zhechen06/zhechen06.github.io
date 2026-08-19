@@ -1,0 +1,5 @@
+现为**香港理工大学杰出博士后**，并于2024年获得香港理工大学哲学博士学位，导师[**肖赋教授**](https://www.polyu.edu.hk/beee/people/academic-staff/professor-xiao-fu-linda/)。此前，分别于2020年和2017年获得同济大学工学硕士（导师：[**许鹏教授**](https://a434.tongji.edu.cn/)）及南京航空航天大学工学学士学位。目前主要研究方向包括智能建筑能源系统可信人工智能、物理融合与概率建筑能源分析、基于 AI 智能体的自主建筑运维，以及电网交互建筑与能源灵活性。
+
+累计发表 **{{PUBLICATION_COUNT}} 篇学术论文** [![Google Scholar 引用](https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fzhechen06%2Fzhechen06.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&label=%E5%BC%95%E7%94%A8&style=flat&labelColor=f6f6f6)](https://scholar.google.com/citations?user=2qgIJwwAAAAJ&hl=zh-CN)，h-index为18。以第一/通讯作者在 *Renewable and Sustainable Energy Reviews*、*Advances in Applied Energy*、*Sustainable Cities and Society*、*Automation in Construction*、*Applied Energy*、*Energy* 等国际期刊发表论文**12篇**；其中1篇入选**ESI热点论文**，2篇入选**高被引论文**。研究成果已在大型建筑冷站优化与云端控制场景中开展**真实部署验证**。现担任 *Building Simulation*（IF: 6.9, Q1）和 *Carbon Neutrality*（IF: 11.2, Q1）青年编委、*Buildings* 客座编辑及多个国际期刊审稿人。
+
+入选**理大校长卓越博士生奖学金计划**、**理大杰出博士后研究员计划**，荣获**理大建设及环境学院年度优秀博士论文奖（本系唯一）**。在国际建筑能源灵活性预测、分布式光伏预测、建筑负荷预测等竞赛中多次获得冠军，包括国际建筑能源灵活性预测挑战赛冠军、第一届粤港澳大湾区数据应用创新大赛冠军、智慧能源系统算法竞赛冠军、“AI大施杯”算法大赛冠军等。
