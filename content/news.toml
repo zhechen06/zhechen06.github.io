@@ -4,6 +4,11 @@ tag = "Service"
 content = "Served as a session chair for ICDIES 2026 in Wollongong, Australia"
 
 [[news]]
+date = "2026-09"
+tag = "Talk"
+content = "Delivered the invited talk \"Fast flexibility quantification and resilience evaluation for building air-conditioning systems\" at The Innovation Conference on Energy 2026 in Shenzhen, China"
+
+[[news]]
 date = "2026-07"
 tag = "Service"
 content = "Selected as a Youth Editor of ***Building Simulation***"

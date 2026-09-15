@@ -4,6 +4,11 @@ tag = "服务"
 content = "担任 ICDIES 2026 分会场主席，会议地点为澳大利亚卧龙岗"
 
 [[news]]
+date = "2026-09"
+tag = "报告"
+content = "在中国深圳举办的 The Innovation Conference on Energy 2026 作题为“Fast flexibility quantification and resilience evaluation for building air-conditioning systems”的邀请报告"
+
+[[news]]
 date = "2026-07"
 tag = "服务"
 content = "入选 ***Building Simulation*** 青年编委"
