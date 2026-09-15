@@ -24,7 +24,7 @@ image = "/services/buildings-editor-certificate.jpg"
 [[items]]
 section = "期刊服务"
 title = "期刊审稿人"
-content = "受邀担任多个期刊审稿人，包括 ***Applied Energy***, ***Automation in Construction***, ***Energy Conversion and Management***, ***Journal of Cleaner Production***, ***Advanced Engineering Informatics***, ***Engineering Applications of Artificial Intelligence***, ***Computers in Industry***, ***Energy***, ***Building and Environment***, ***Applied Thermal Engineering***, ***Energy and Buildings***, ***Building Simulation***, ***iScience***"
+content = "受邀担任多个期刊审稿人，包括 ***Advanced Engineering Informatics***, ***Applied Energy***, ***Applied Thermal Engineering***, ***Automation in Construction***, ***Building and Environment***, ***Building Simulation***, ***Computers in Industry***, ***Energy***, ***Energy and Buildings***, ***Energy Conversion and Management***, ***Engineering Applications of Artificial Intelligence***, ***IEEE Transactions on Smart Grid***, ***Journal of Cleaner Production***, ***Sustainable Cities and Society***"
 
 [[items]]
 section = "会议服务"
@@ -44,16 +44,14 @@ image = "/services/aixenergy-2026.jpg"
 [[items]]
 section = "协会会员"
 title = "会员"
-subtitle = "International Building Performance Simulation Association (IBPSA)"
+subtitle = "国际建筑性能模拟协会（IBPSA）"
 date = "进行中"
-content = "国际建筑性能模拟协会会员"
 
 [[items]]
 section = "协会会员"
 title = "会员"
-subtitle = "International Society of Energy and Built Environment (ISEBE)"
+subtitle = "国际能源与建筑环境学会（ISEBE）"
 date = "进行中"
-content = "国际能源与建筑环境学会会员"
 
 [[items]]
 section = "科研项目"

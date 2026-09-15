@@ -3,6 +3,12 @@ layout = "list"
 title = "邀请报告"
 
 [[items]]
+title = "Fast flexibility quantification and resilience evaluation for building air-conditioning systems"
+subtitle = "The Innovation Conference on Energy 2026"
+date = "2026"
+content = "“建筑高密度热储能技术及柔性能源系统”专题研讨会邀请报告  \n2026年9月，中国深圳"
+
+[[items]]
 title = "Demand response detection and capacity prediction using ensemble learning"
 subtitle = "IEEE International Conference on Energy Technologies for Future Grids (IEEE ETFG 2025)"
 date = "2025"

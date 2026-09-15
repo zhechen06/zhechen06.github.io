@@ -24,7 +24,7 @@ image = "/services/buildings-editor-certificate.jpg"
 [[items]]
 section = "Journal Service"
 title = "Peer Reviewer"
-content = "***Applied Energy***, ***Automation in Construction***, ***Energy Conversion and Management***, ***Journal of Cleaner Production***, ***Advanced Engineering Informatics***, ***Engineering Applications of Artificial Intelligence***, ***Computers in Industry***, ***Energy***, ***Building and Environment***, ***Applied Thermal Engineering***, ***Energy and Buildings***, ***Building Simulation***, ***iScience***"
+content = "***Advanced Engineering Informatics***, ***Applied Energy***, ***Applied Thermal Engineering***, ***Automation in Construction***, ***Building and Environment***, ***Building Simulation***, ***Computers in Industry***, ***Energy***, ***Energy and Buildings***, ***Energy Conversion and Management***, ***Engineering Applications of Artificial Intelligence***, ***IEEE Transactions on Smart Grid***, ***Journal of Cleaner Production***, ***Sustainable Cities and Society***"
 
 [[items]]
 section = "Conference Service"
@@ -46,14 +46,12 @@ section = "Professional Memberships"
 title = "Member"
 subtitle = "International Building Performance Simulation Association (IBPSA)"
 date = "Ongoing"
-content = "Member of the International Building Performance Simulation Association"
 
 [[items]]
 section = "Professional Memberships"
 title = "Member"
 subtitle = "International Society of Energy and Built Environment (ISEBE)"
 date = "Ongoing"
-content = "Member of the International Society of Energy and Built Environment"
 
 [[items]]
 section = "Research Projects"
