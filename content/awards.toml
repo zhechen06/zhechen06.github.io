@@ -13,7 +13,7 @@ image = "/awards/bas2026-best-oral-presentation-nomination.jpeg"
 
 [[items]]
 id = "bas2026-best-oral-presentation-award"
-title = "Best Oral Presentation Award and Best Paper Nomination"
+title = "Best Oral Presentation Award; Best Paper Nomination"
 subtitle = "The International Conference of Building and Simulation (BAS 2026)"
 date = "2026-06"
 content = "Oral presentation and paper titled \"Development and validation of a data quality assessment framework for machine learning modelling in building energy systems\""
@@ -88,7 +88,7 @@ tags = ["Research Recognition"]
 
 [[items]]
 id = "unilab-smart-energy"
-title = "Champion, Smart Energy System Algorithm Competition"
+title = "Champion, Big Data Analytics for Smart Energy Systems"
 subtitle = "UNiLAB and Alibaba Tianchi"
 date = "2023-02"
 content = "Distributed PV generation prediction, ranked 1/513, and awarded CN¥20,000 [Source](https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn)"

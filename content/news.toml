@@ -47,7 +47,7 @@ content = "Presented \"A novel demand response detection and capacity prediction
 [[news]]
 date = "2026-04"
 tag = "Career"
-content = "Advised six undergraduate students in BSE3716/BSE4726 capstone research projects"
+content = "Advised six undergraduate students in BSE3761/BSE4726 capstone research projects"
 
 [[news]]
 date = "2025-12"
@@ -213,7 +213,7 @@ links = [
 [[news]]
 date = "2023-02"
 tag = "Award"
-content = "Won the Smart Energy System Algorithm Competition, organized by UNiLAB and Alibaba Tianchi, for distributed PV generation prediction; ranked 1/513 and awarded CN¥20,000"
+content = "Won the Big Data Analytics for Smart Energy Systems competition, organized by UNiLAB and Alibaba Tianchi, for distributed PV generation prediction; ranked 1/513 and awarded CN¥20,000"
 links = [
   { label = "Attachment", url = "/awards/unilab-smart-energy.jpg" },
   { label = "Source", url = "https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn" },

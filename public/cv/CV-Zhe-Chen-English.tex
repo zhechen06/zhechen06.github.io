@@ -91,8 +91,6 @@
 \newcommand{\emailicon}{\contacticonbox{\textcolor{darkblue}{\raisebox{0.02em}{\scalebox{1.32}{{\emailiconfont\char"2709}}}}}}
 \newcommand{\homepageicon}{\contacticonbox{\textcolor{darkblue}{\raisebox{-0.03em}{\scalebox{0.9}{{\homepageiconfont\char"1F310}}}}}}
 \newcommand{\homepageurl}{zhechen06.github.io}
-\newcommand{\scholaricon}{\textcolor{darkblue}{\aiGoogleScholar}}
-\newcommand{\scholarstats}{\href{https://scholar.google.com/citations?user=2qgIJwwAAAAJ}{\scholaricon\hspace{0.25em}\textcolor{darkblue}{Citations}}: 2,400; h-index: 19; hot paper: 1; highly cited paper: 2}
 
 % No paragraph indent, looser line spacing
 \setlength{\parindent}{0pt}
@@ -104,14 +102,15 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\fancyfoot[L]{\footnotesize\textcolor{white}{Last updated: September 15, 2026}}
+\fancyfoot[L]{\footnotesize\textcolor{white}{Last updated: November 02, 2026}}
 \fancyfoot[R]{\footnotesize Page \thepage\ of \pageref*{LastPage}}
 
 % List styling
 \newlength{\cvitemgap}
 \setlength{\cvitemgap}{3pt}
 \setlist{nosep, topsep=0pt, partopsep=0pt, itemsep=\cvitemgap, parsep=0pt, before=\vspace{0pt}}
-\setlist[enumerate,1]{labelindent=0pt, leftmargin=*, widest=30, labelsep=0.35em, align=right}
+% Keep each single-paragraph numbered entry on one page; breaks may occur between entries.
+\setlist[enumerate,1]{labelindent=0pt, leftmargin=*, widest=30, labelsep=0.35em, align=right, before={\vspace{0pt}\interlinepenalty=10000}}
 
 % Custom column types
 \newcolumntype{D}{>{\RaggedRight\arraybackslash}p{2.75cm}}   % date column
@@ -131,8 +130,27 @@
 Department of Building Environment and Energy Engineering\par
 The Hong Kong Polytechnic University\par
 % ZN1001, 181 Chatham Road South, Kowloon, Hong Kong\par
-\emailicon\href{mailto:zhechen@polyu.edu.hk}{zhechen@polyu.edu.hk}\par
-\homepageicon\href{https://zhechen06.github.io}{\homepageurl}
+\noindent\begin{tabularx}{\linewidth}{@{}l >{\centering\arraybackslash}X r@{}}
+\emailicon\href{mailto:zhechen@polyu.edu.hk}{zhechen@polyu.edu.hk} &
+\homepageicon\href{https://zhechen06.github.io}{\homepageurl} &
+\href{https://orcid.org/0000-0003-4715-5651}{\textcolor{darkblue}{\raisebox{-0.1em}{\includegraphics[height=0.9em]{orcid-icon.pdf}}\hspace{0.25em}0000-0003-4715-5651}} \\
+\end{tabularx}\par
+\vspace{3pt}
+\noindent{\small\makebox[\linewidth][l]{Trustworthy AI\hfill\textbullet\hfill Physics-informed analytics\hfill\textbullet\hfill Autonomous building operations\hfill\textbullet\hfill Energy flexibility}}\par
+\vspace{15pt}
+\begingroup
+\setlength{\tabcolsep}{2pt}
+\setlength{\fboxsep}{5pt}
+\noindent\colorbox{darkblue!5}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+\begin{tabularx}{\linewidth}{@{}*{3}{>{\centering\arraybackslash}X}@{}}
+{\small\textcolor{black}{SCI papers:} \textcolor{darkblue}{\textbf{33}}} &
+{\small\textcolor{black}{First/Corr. author papers:} \textcolor{darkblue}{\textbf{12}}} &
+{\small\textcolor{black}{Highly cited papers:} \textcolor{darkblue}{\textbf{3}}} \\[2pt]
+{\small\href{https://www.scopus.com/authid/detail.uri?authorId=57207957994\#tab=impact}{\textcolor{black}{FWCI:} \textcolor{darkblue}{\textbf{2.63}}}} &
+{\small\href{https://scholar.google.com/citations?user=2qgIJwwAAAAJ}{\textcolor{black}{h-index:} \textcolor{darkblue}{\textbf{20}}}} &
+{\small\href{https://scholar.google.com/citations?user=2qgIJwwAAAAJ}{\textcolor{black}{Google Scholar citations:} \textcolor{darkblue}{\textbf{2,500}}}} \\
+\end{tabularx}}}
+\endgroup\par\vspace{-9pt}
 
 % =============================================================================
 %  WORK EXPERIENCE
@@ -172,7 +190,7 @@ The Hong Kong Polytechnic University\par
 % =============================================================================
 \cvsection{AWARDS \& HONORS}{AWARDS \& HONORS}
 \begin{longtable}{@{}p{1cm}@{\hspace{0.20cm}}>{\justifying\arraybackslash}p{\dimexpr\textwidth-1.20cm\relax}@{}}
-2026 & \textbf{Best Oral Presentation Award and Best Paper Nomination}, The International Conference of Building and Simulation (BAS 2026) \cvtabrowgap
+2026 & \textbf{Best Oral Presentation Award}; \textbf{Best Paper Nomination}, The International Conference of Building and Simulation (BAS 2026) \cvtabrowgap
 2025 & \textbf{Champion (Ranking 1/610, AU\$10,000)}, FlexTrack Challenge---Detecting Energy Flexibility in Buildings, AIcrowd, New South Wales Government, and University of Wollongong \cvtabrowgap
 2025 & \textbf{PolyU FCE Awards for Outstanding PhD Theses}, The Hong Kong Polytechnic University (Top 2.5\%; only recipient from the department) \cvtabrowgap
 2024 & \textbf{PolyU Distinguished Postdoctoral Fellowship (HK\$841,040)}, The Hong Kong Polytechnic University; finalist for the RGC Junior Research Fellow Scheme (the only nominee from the department) \cvtabrowgap
@@ -181,7 +199,7 @@ The Hong Kong Polytechnic University\par
 2023 & \textbf{Excellent Control Award}, 21st MDV Central Air Conditioning Design and Application Competition, Midea Building Technologies \cvtabrowgap
 2023 & \textbf{Champion (Ranking 1/331, CN¥20,000)}, AI Master Cup Algorithm Competition, Schneider Electric and Baidu PaddlePaddle \cvtabrowgap
 2023 & \textbf{ESI Hot Paper and Highly Cited Paper}, corresponding author paper titled ``Physical energy and data-driven models in building energy prediction: A review'' \cvtabrowgap
-2023 & \textbf{Champion (Ranking 1/513, CN¥20,000)}, Smart Energy System Algorithm Competition, UNiLAB and Alibaba Tianchi \cvtabrowgap
+2023 & \textbf{Champion (Ranking 1/513, CN¥20,000)}, Big Data Analytics for Smart Energy Systems, UNiLAB and Alibaba Tianchi \cvtabrowgap
 2022 & \textbf{Paper nominated for the Eni Award 2023}, first author paper titled ``Multi-objective residential load scheduling approach for demand response in smart grid'' \cvtabrowgap
 2022 & \textbf{Champion}, i-Space: VRAR Contest 2021/22, project titled ``AR-enabled smart building energy management platform'', The Hong Kong Polytechnic University \cvtabrowgap
 2022 & \textbf{Silver Award}, Global AI Challenge for Building E\&M Facilities, Electrical and Mechanical Services Department \cvtabrowgap
@@ -191,7 +209,7 @@ The Hong Kong Polytechnic University\par
 % =============================================================================
 %  PUBLICATIONS
 % =============================================================================
-\cvsection{PUBLICATIONS}{\texorpdfstring{PUBLICATIONS\hfill\normalfont\normalsize\color{black}\scholarstats}{PUBLICATIONS}}
+\cvsection{PUBLICATIONS}{PUBLICATIONS}
 
 \cvsubsection{Journal Papers}{\color{darkblue}Journal Papers}
 \begin{enumerate}
@@ -353,7 +371,7 @@ Membership      & International Building Performance Simulation Association\newl
 % =============================================================================
 \cvsection{TEACHING EXPERIENCE}{TEACHING EXPERIENCE}
 \begin{tabularx}{\textwidth}{@{}p{2.7cm} X r@{}}
-Advising & BSE3716 \& BSE4726 (Capstone Research Project), 2025--2026 & 6 undergraduates \cvtabrowgap
+Advising & BSE3761 \& BSE4726 (Capstone Research Project), 2025--2026 & 6 undergraduates \cvtabrowgap
          & BSE3713 \& BSE4725 (Capstone Research Project), 2023--2024 & 2 undergraduates \\
 \end{tabularx}
 

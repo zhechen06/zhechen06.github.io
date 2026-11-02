@@ -18,6 +18,7 @@ import { Publication } from '@/types/publication';
 import { PublicationPageConfig, ScholarMetrics } from '@/types/page';
 import { cn } from '@/lib/utils';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { useGoogleScholarMetrics } from '@/lib/useGoogleScholarMetrics';
 import FormattedBibTeXText from './FormattedBibTeXText';
 
 interface PublicationsListProps {
@@ -37,8 +38,6 @@ const urlStateKeys = ['q', 'year', 'author', 'journal', 'quartile', 'impact', 's
 const validAuthorshipFilters: AuthorshipFilter[] = ['first-author', 'corresponding-author', 'co-author'];
 const validQuartileFilters: QuartileFilter[] = ['Q1', 'Q2', 'Q3', 'Q4'];
 const validImpactFactorFilters: ImpactFactorFilter[] = ['lt-5', '5-10', 'gt-10'];
-
-const googleScholarStatsUrl = 'https://cdn.jsdelivr.net/gh/zhechen06/zhechen06.github.io@google-scholar-stats/gs_data.json';
 
 const passiveTagClass = "inline-flex max-w-full items-center rounded-md border border-transparent bg-neutral-100 px-3 py-1 text-left text-xs font-medium leading-snug text-ui-body dark:border-white/15 dark:bg-white/15 dark:text-slate-50";
 
@@ -155,7 +154,7 @@ export default function PublicationsList({
     googleScholarUrl,
 }: PublicationsListProps) {
     const messages = useMessages();
-    const [liveScholarMetrics, setLiveScholarMetrics] = useState<ScholarMetrics | null>(null);
+    const liveScholarMetrics = useGoogleScholarMetrics(googleScholarUrl);
     const resolvedScholarMetrics = liveScholarMetrics ?? scholarMetrics ?? null;
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedYears, setSelectedYears] = useState<number[]>([]);
@@ -174,38 +173,6 @@ export default function PublicationsList({
         selectedQuartiles.length > 0 ||
         selectedImpactFactors.length > 0;
     const hasNarrowedResults = hasActiveFilterSelection || searchQuery.trim().length > 0;
-
-    useEffect(() => {
-        let isMounted = true;
-        const cacheKey = new Date().toISOString().slice(0, 13);
-
-        fetch(`${googleScholarStatsUrl}?v=${cacheKey}`)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error(`Google Scholar stats returned HTTP ${response.status}`);
-                }
-                return response.json() as Promise<{ citedby?: number; hindex?: number; updated?: string }>;
-            })
-            .then((stats) => {
-                if (!isMounted || typeof stats.citedby !== 'number' || typeof stats.hindex !== 'number') {
-                    return;
-                }
-
-                setLiveScholarMetrics({
-                    citations: stats.citedby,
-                    hIndex: stats.hindex,
-                    sourceUrl: googleScholarUrl,
-                    fetchedAt: stats.updated,
-                });
-            })
-            .catch(() => {
-                // Keep the build-time or fallback value until the stats branch exists.
-            });
-
-        return () => {
-            isMounted = false;
-        };
-    }, [googleScholarUrl]);
 
     useEffect(() => {
         if (typeof window === 'undefined') return;

@@ -90,8 +90,6 @@
 \newcommand{\emailicon}{\contacticonbox{\textcolor{darkblue}{\raisebox{0.02em}{\scalebox{1.32}{{\emailiconfont\char"2709}}}}}}
 \newcommand{\homepageicon}{\contacticonbox{\textcolor{darkblue}{\raisebox{-0.03em}{\scalebox{0.9}{{\homepageiconfont\char"1F310}}}}}}
 \newcommand{\homepageurl}{zhechen06.github.io}
-\newcommand{\scholaricon}{\textcolor{darkblue}{\aiGoogleScholar}}
-\newcommand{\scholarstats}{\href{https://scholar.google.com/citations?user=2qgIJwwAAAAJ}{\scholaricon\hspace{0.25em}\textcolor{darkblue}{谷歌学术}}被引：2,400；h-index：19；热点论文：1；高被引论文：2}
 
 \setlength{\parindent}{0pt}
 \renewcommand{\arraystretch}{1.02}
@@ -102,13 +100,14 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\fancyfoot[L]{\footnotesize\textcolor{white}{最近更新：2026年9月15日}}
+\fancyfoot[L]{\footnotesize\textcolor{white}{最近更新：2026年11月2日}}
 \fancyfoot[R]{\footnotesize 第 \thepage\ 页，共 \pageref*{LastPage} 页}
 
 \newlength{\cvitemgap}
 \setlength{\cvitemgap}{3pt}
 \setlist{nosep, topsep=0pt, partopsep=0pt, itemsep=\cvitemgap, parsep=0pt, before=\vspace{0pt}}
-\setlist[enumerate,1]{labelindent=0pt, leftmargin=*, widest=30, labelsep=0.35em, align=right}
+% Keep each single-paragraph numbered entry on one page; breaks may occur between entries.
+\setlist[enumerate,1]{labelindent=0pt, leftmargin=*, widest=30, labelsep=0.35em, align=right, before={\vspace{0pt}\interlinepenalty=10000}}
 
 \newcolumntype{D}{>{\RaggedRight\arraybackslash}p{2.75cm}}
 \newcolumntype{M}{>{\RaggedRight\arraybackslash}X}
@@ -125,8 +124,11 @@
 {\fontsize{12}{14}\selectfont\textbf{理大杰出博士后}}\par
 香港理工大学建筑环境及能源工程\par
 % 香港九龙红磡漆咸道南181号，香港理工大学Z座ZN1001室\par
-\emailicon\href{mailto:zhechen@polyu.edu.hk}{zhechen@polyu.edu.hk}\par
-\homepageicon\href{https://zhechen06.github.io}{\homepageurl}
+\noindent\begin{tabularx}{\linewidth}{@{}l >{\centering\arraybackslash}X r@{}}
+\emailicon\href{mailto:zhechen@polyu.edu.hk}{zhechen@polyu.edu.hk} &
+\homepageicon\href{https://zhechen06.github.io}{\homepageurl} &
+\href{https://orcid.org/0000-0003-4715-5651}{\textcolor{darkblue}{\raisebox{-0.1em}{\includegraphics[height=0.9em]{orcid-icon.pdf}}\hspace{0.25em}0000-0003-4715-5651}} \\
+\end{tabularx}
 
 % =============================================================================
 %  PROFILE
@@ -134,8 +136,8 @@
 \cvsection{个人简介}{个人简介}
 \begin{tabularx}{\textwidth}{@{}X@{}}
 现为香港理工大学杰出博士后，并于2024年获得香港理工大学哲学博士学位，导师肖赋教授。此前，分别于2020年和2017年获得同济大学工学硕士（导师：许鹏教授）及南京航空航天大学工学学士学位。目前主要研究方向包括智能建筑能源系统可信人工智能、物理融合与概率建筑能源分析、基于 AI 智能体的自主建筑运维，以及电网交互建筑与能源灵活性。\\[3pt]
-累计发表论文30余篇，谷歌学术被引2,400次，h-index为19。以第一/通讯作者在\textit{Renewable and Sustainable Energy Reviews}、\textit{Advances in Applied Energy}、\textit{Sustainable Cities and Society}、\textit{Automation in Construction}、\textit{Applied Energy}、\textit{Energy}等国际期刊发表论文12篇；其中1篇入选ESI热点论文，2篇入选高被引论文。研究成果已在大型建筑冷站优化与云端控制场景中开展真实部署验证。现担任\textit{Building Simulation}（IF: 6.9, Q1）和\textit{Carbon Neutrality}（IF: 11.2, Q1）青年编委、\textit{Buildings}客座编辑及多个国际期刊审稿人。\\[3pt]
-入选理大校长卓越博士生奖学金计划、理大杰出博士后研究员计划，荣获理大建设及环境学院年度优秀博士论文奖（本系唯一）。在国际建筑能源灵活性预测、分布式光伏预测、建筑负荷预测等竞赛中多次获得冠军，包括国际建筑能源灵活性预测挑战赛冠军（排名1/610，奖金AU\$10,000）、第一届粤港澳大湾区数据应用创新大赛冠军（奖金CN¥100,000）、智慧能源系统算法竞赛冠军（排名1/513）、“AI大施杯”算法大赛冠军（排名1/331）等。
+累计发表 SCI 论文 33 篇，谷歌学术被引2,500次，h-index为20。以第一/通讯作者在\textit{Renewable and Sustainable Energy Reviews}、\textit{Advances in Applied Energy}、\textit{Sustainable Cities and Society}、\textit{Automation in Construction}、\textit{Applied Energy}、\textit{Energy}等国际期刊发表论文12篇；其中1篇入选ESI热点论文，3篇入选高被引论文。研究成果已在大型建筑冷站优化与云端控制场景中开展真实部署验证。现担任\textit{Building Simulation}（IF: 6.9, Q1）和\textit{Carbon Neutrality}（IF: 11.2, Q1）青年编委、\textit{Buildings}客座编辑及多个国际期刊审稿人。\\[3pt]
+入选理大校长卓越博士生奖学金计划、理大杰出博士后研究员计划，荣获理大建设及环境学院年度优秀博士论文奖（本系唯一）。在国际建筑能源灵活性预测、分布式光伏预测、建筑负荷预测等竞赛中多次获得冠军，包括国际建筑能源灵活性预测挑战赛冠军（排名1/610，奖金AU\$10,000）、第一届粤港澳大湾区数据应用创新大赛冠军（奖金CN¥100,000）、智慧能源系统大数据分析赛冠军（排名1/513）、“AI大施杯”算法大赛冠军（排名1/331）等。
 \end{tabularx}
 
 % =============================================================================
@@ -181,7 +183,7 @@
 % =============================================================================
 \cvsection{获奖经历}{获奖经历}
 \begin{longtable}{@{}p{1cm}@{\hspace{0.20cm}}>{\justifying\arraybackslash}p{\dimexpr\textwidth-1.20cm\relax}@{}}
-2026 & \textbf{最佳口头报告奖与最佳论文提名}，The International Conference of Building and Simulation (BAS 2026) \cvtabrowgap
+2026 & \textbf{最佳口头报告奖}；\textbf{最佳论文提名}，The International Conference of Building and Simulation (BAS 2026) \cvtabrowgap
 2025 & \textbf{冠军（排名1/610，AU\$10,000）}，FlexTrack Challenge---Detecting Energy Flexibility in Buildings，AIcrowd、新南威尔士州政府与伍伦贡大学 \cvtabrowgap
 2025 & \textbf{理大建设及环境学院优秀博士论文奖}，香港理工大学（前2.5\%，本系唯一获奖者） \cvtabrowgap
 2024 & \textbf{理大杰出博士后研究员资助（HK\$841,040）}，香港理工大学；入围 RGC Junior Research Fellow Scheme（本系唯一提名人） \cvtabrowgap
@@ -190,7 +192,7 @@
 2023 & \textbf{杰出控制奖}，第21届MDV中央空调设计应用大赛，美的楼宇科技 \cvtabrowgap
 2023 & \textbf{冠军（排名1/331，CN¥20,000）}，“AI大施杯”算法大赛，施耐德电气与百度飞桨 \cvtabrowgap
 2023 & \textbf{ESI热点论文和高被引论文}，通讯作者论文``Physical energy and data-driven models in building energy prediction: A review'' \cvtabrowgap
-2023 & \textbf{冠军（排名1/513，CN¥20,000）}，智慧能源系统算法竞赛，UNiLAB与阿里巴巴天池 \cvtabrowgap
+2023 & \textbf{冠军（排名1/513，CN¥20,000）}，智慧能源系统大数据分析赛，UNiLAB与阿里巴巴天池 \cvtabrowgap
 2022 & \textbf{论文获 Eni Award 2023 提名}，第一作者需求响应调度论文 \cvtabrowgap
 2022 & \textbf{冠军}，i-Space: VRAR Contest 2021/22，项目``AR-enabled smart building energy management platform''，香港理工大学 \cvtabrowgap
 2022 & \textbf{银奖}，国际建筑机电人工智能挑战赛，香港机电工程署 \cvtabrowgap
@@ -200,7 +202,7 @@
 % =============================================================================
 %  PUBLICATIONS
 % =============================================================================
-\cvsection{学术文章}{\texorpdfstring{学术文章\hfill\normalfont\normalsize\color{black}\scholarstats}{学术文章}}
+\cvsection{学术文章}{学术文章}
 
 \cvsubsection{期刊论文}{\color{darkblue}期刊论文}
 \begin{enumerate}
@@ -322,7 +324,7 @@
 \enlargethispage{\baselineskip}
 \cvsection{教学与指导经历}{教学与指导经历}
 \begin{tabularx}{\textwidth}{@{}p{2.7cm} X r@{}}
-学生指导 & BSE3716 \& BSE4726 Capstone Research Project，2025--2026 & 6名本科生 \cvtabrowgap
+学生指导 & BSE3761 \& BSE4726 Capstone Research Project，2025--2026 & 6名本科生 \cvtabrowgap
            & BSE3713 \& BSE4725 Capstone Research Project，2023--2024 & 2名本科生 \\
 \end{tabularx}
 

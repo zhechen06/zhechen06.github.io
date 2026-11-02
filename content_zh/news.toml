@@ -47,7 +47,7 @@ content = "在 Applied Energy Symposium (AI×Energy 2026) 作题为 \"A novel de
 [[news]]
 date = "2026-04"
 tag = "履历"
-content = "指导六名本科生完成 BSE3716/BSE4726 毕业设计研究"
+content = "指导六名本科生完成 BSE3761/BSE4726 毕业设计研究"
 
 [[news]]
 date = "2025-12"
@@ -213,7 +213,7 @@ links = [
 [[news]]
 date = "2023-02"
 tag = "奖项"
-content = "获得智慧能源系统算法竞赛冠军，主办方为 UNiLAB 与阿里巴巴天池，面向分布式光伏发电量预测，排名 1/513，获奖金 CN¥20,000"
+content = "获得智慧能源系统大数据分析赛冠军，主办方为 UNiLAB 与阿里巴巴天池，面向分布式光伏发电量预测，排名 1/513，获奖金 CN¥20,000"
 links = [
   { label = "附件", url = "/awards/unilab-smart-energy.jpg" },
   { label = "来源", url = "https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn" },

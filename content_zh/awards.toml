@@ -13,7 +13,7 @@ image = "/awards/bas2026-best-oral-presentation-nomination.jpeg"
 
 [[items]]
 id = "bas2026-best-oral-presentation-award"
-title = "最佳口头报告奖与最佳论文提名"
+title = "最佳口头报告奖；最佳论文提名"
 subtitle = "The International Conference of Building and Simulation (BAS 2026)"
 date = "2026-06"
 content = "口头报告与论文题目：\"Development and validation of a data quality assessment framework for machine learning modelling in building energy systems\""
@@ -88,7 +88,7 @@ tags = ["学术认可"]
 
 [[items]]
 id = "unilab-smart-energy"
-title = "冠军，智慧能源系统算法竞赛"
+title = "冠军，智慧能源系统大数据分析赛"
 subtitle = "UNiLAB 与阿里巴巴天池"
 date = "2023-02"
 content = "分布式光伏发电量预测，排名 1/513，奖金 CN¥20,000 [来源](https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn)"

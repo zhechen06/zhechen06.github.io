@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { useGoogleScholarMetrics } from '@/lib/useGoogleScholarMetrics';
 
 interface AboutProps {
     content: string;
@@ -13,6 +14,8 @@ interface AboutProps {
 
 export default function About({ content, title, showTitle = true }: AboutProps) {
     const messages = useMessages();
+    const scholarMetrics = useGoogleScholarMetrics(undefined, content.includes('{{SCHOLAR_HINDEX}}'));
+    const resolvedContent = content.replaceAll('{{SCHOLAR_HINDEX}}', String(scholarMetrics?.hIndex ?? '—'));
     const resolvedTitle = title || messages.home.about;
 
     return (
@@ -69,7 +72,7 @@ export default function About({ content, title, showTitle = true }: AboutProps) 
                         em: ({ children }) => <em className="italic text-ui-muted">{children}</em>,
                     }}
                 >
-                    {content}
+                    {resolvedContent}
                 </ReactMarkdown>
             </div>
         </motion.section>
