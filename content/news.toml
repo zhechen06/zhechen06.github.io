@@ -1,4 +1,10 @@
 [[news]]
+date = "2026-11"
+tag = "Paper"
+content = "Corresponding-author paper accepted in *Sustainable Energy Technologies and Assessments*: \"A novel short-term solar irradiance prediction framework with early classification\""
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.seta.2026.105579" }]
+
+[[news]]
 date = "2026-10"
 tag = "Service"
 content = "Served as a session chair for ICDIES 2026 in Wollongong, Australia"

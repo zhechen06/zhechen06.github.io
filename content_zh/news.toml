@@ -1,4 +1,10 @@
 [[news]]
+date = "2026-11"
+tag = "论文"
+content = "通讯作者论文 \"A novel short-term solar irradiance prediction framework with early classification\" 被 *Sustainable Energy Technologies and Assessments* 接收"
+links = [{ label = "DOI", url = "https://doi.org/10.1016/j.seta.2026.105579" }]
+
+[[news]]
 date = "2026-10"
 tag = "服务"
 content = "担任 ICDIES 2026 分会场主席，会议地点为澳大利亚卧龙岗"
