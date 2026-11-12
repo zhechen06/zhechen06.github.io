@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/google-scholar-stats.yml'
       - 'google_scholar_crawler/**'
+      - '.python-version'
       - 'pyproject.toml'
       - 'uv.lock'
   schedule:
@@ -31,6 +32,11 @@ jobs:
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test Scholar fallback handling
+        run: uv run --locked python -m unittest discover -s google_scholar_crawler -p 'test_*.py'
 
       - name: Generate Google Scholar stats
         id: scholar
@@ -41,8 +47,8 @@ jobs:
           SCHOLARLY_ATTEMPT_TIMEOUT_SECONDS: '45'
           SCHOLAR_FETCH_ORDER: direct,scholarly_free_proxy,scholarly
         run: |
-          uv run python google_scholar_crawler/main.py
-          fetch_status="$(uv run python - <<'PY'
+          uv run --locked python google_scholar_crawler/main.py
+          fetch_status="$(uv run --locked python - <<'PY'
           import json
           from pathlib import Path
 

@@ -317,9 +317,12 @@ def fetch_fresh_stats(scholar_id: str, updated_at: str) -> dict:
 
         try:
             return handler()
-        except RuntimeError as error:
-            print(f"{method} fetch failed: {error}")
-            errors.append(f"{method}: {error}")
+        except Exception as error:
+            # Backend imports can fail before a fetch starts. Keep trying the
+            # remaining backends, then let main() fall back to previous stats.
+            detail = f"{type(error).__name__}: {error}"
+            print(f"{method} fetch failed: {detail}")
+            errors.append(f"{method}: {detail}")
 
     raise RuntimeError("; ".join(errors) or "No Google Scholar fetch methods configured")
 
