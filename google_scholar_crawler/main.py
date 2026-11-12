@@ -36,6 +36,11 @@ METRIC_LABELS = {
     "i10-index": "i10index",
 }
 
+
+class _FetchDeadlineExceeded(BaseException):
+    """Escape third-party retry loops that catch ordinary exceptions."""
+
+
 REQUEST_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -158,13 +163,16 @@ def timeout_after(seconds: float, label: str):
         return
 
     def handle_timeout(_signum, _frame) -> None:
-        raise TimeoutError(f"{label} timed out after {seconds:g} seconds")
+        raise _FetchDeadlineExceeded()
 
     previous_handler = signal.getsignal(signal.SIGALRM)
     signal.signal(signal.SIGALRM, handle_timeout)
     previous_timer = signal.setitimer(signal.ITIMER_REAL, seconds)
     try:
-        yield
+        try:
+            yield
+        except _FetchDeadlineExceeded:
+            raise TimeoutError(f"{label} timed out after {seconds:g} seconds") from None
     finally:
         signal.signal(signal.SIGALRM, previous_handler)
         signal.setitimer(signal.ITIMER_REAL, *previous_timer)

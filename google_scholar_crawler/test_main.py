@@ -1,5 +1,7 @@
 import json
+import signal
 import tempfile
+import time
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -8,6 +10,18 @@ from google_scholar_crawler import main as crawler
 
 
 class ScholarFallbackTests(unittest.TestCase):
+    @unittest.skipUnless(hasattr(signal, "SIGALRM"), "requires Unix interval timers")
+    def test_deadline_escapes_library_exception_handler(self):
+        previous_handler = signal.getsignal(signal.SIGALRM)
+        with self.assertRaisesRegex(TimeoutError, "test backend timed out"):
+            with crawler.timeout_after(0.02, "test backend"):
+                try:
+                    time.sleep(0.2)
+                except Exception:
+                    pass  # scholarly retries after catching ordinary exceptions.
+        self.assertEqual(signal.getsignal(signal.SIGALRM), previous_handler)
+        self.assertEqual(signal.getitimer(signal.ITIMER_REAL), (0.0, 0.0))
+
     def test_backend_import_failure_tries_next_backend(self):
         fresh = {"fetch_status": "fresh", "citedby": 2528}
         with (
