@@ -1,5 +1,11 @@
 [[news]]
 date = "2026-11"
+tag = "Service"
+content = "Named a co-chair of Session 3A, “AI-Enabled Building Control: Building Sensing and Decision-Making,” at the Building and Simulation Conference 2026 at Tongji University, Shanghai."
+links = [{ label = "Certificate", url = "/services/bas-2026-tongji-convener-certificate.jpg" }]
+
+[[news]]
+date = "2026-11"
 tag = "Paper"
 content = "Corresponding-author paper accepted in *Sustainable Energy Technologies and Assessments*: \"A novel short-term solar irradiance prediction framework with early classification\""
 links = [{ label = "DOI", url = "https://doi.org/10.1016/j.seta.2026.105579" }]

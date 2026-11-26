@@ -1,5 +1,11 @@
 [[news]]
 date = "2026-11"
+tag = "服务"
+content = "担任 2026 年建筑与仿真学术研讨会分论坛 3A「人工智能赋能建筑控制——建筑感知与决策」的共同主持人（上海同济大学）。"
+links = [{ label = "证书", url = "/services/bas-2026-tongji-convener-certificate.jpg" }]
+
+[[news]]
+date = "2026-11"
 tag = "论文"
 content = "通讯作者论文 \"A novel short-term solar irradiance prediction framework with early classification\" 被 *Sustainable Energy Technologies and Assessments* 接收"
 links = [{ label = "DOI", url = "https://doi.org/10.1016/j.seta.2026.105579" }]

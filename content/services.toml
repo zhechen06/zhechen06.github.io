@@ -28,6 +28,13 @@ content = "***Advanced Engineering Informatics***, ***Applied Energy***, ***Appl
 
 [[items]]
 section = "Conference Service"
+title = "Session Chair, Building and Simulation Conference 2026"
+date = "2026"
+content = "Co-chair of Session 3A, “AI-Enabled Building Control: Building Sensing and Decision-Making”  \nNovember 2026, Tongji University, Shanghai, China"
+image = "/services/bas-2026-tongji-convener-certificate.jpg"
+
+[[items]]
+section = "Conference Service"
 title = "Session Chair, ICDIES 2026"
 subtitle = "International Conference on Digital Intelligence for Energy Systems"
 date = "2026"

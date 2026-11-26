@@ -28,6 +28,13 @@ content = "受邀担任多个期刊审稿人，包括 ***Advanced Engineering In
 
 [[items]]
 section = "会议服务"
+title = "分会场主席，2026 年建筑与仿真学术研讨会"
+date = "2026"
+content = "共同主持分论坛 3A「人工智能赋能建筑控制——建筑感知与决策」  \n2026 年 11 月，上海同济大学"
+image = "/services/bas-2026-tongji-convener-certificate.jpg"
+
+[[items]]
+section = "会议服务"
 title = "分会场主席，ICDIES 2026"
 subtitle = "International Conference on Digital Intelligence for Energy Systems"
 date = "2026"
